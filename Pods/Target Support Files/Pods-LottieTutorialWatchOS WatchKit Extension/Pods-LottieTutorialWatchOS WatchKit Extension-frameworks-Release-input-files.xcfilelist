@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageLottieCoder/SDWebImageLottieCoder.framework
+${BUILT_PRODUCTS_DIR}/librlottie/librlottie.framework

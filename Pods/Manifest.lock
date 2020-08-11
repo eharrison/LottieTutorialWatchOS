@@ -1,0 +1,26 @@
+PODS:
+  - librlottie (0.1.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SDWebImageLottieCoder (0.1.0):
+    - librlottie (~> 0.1)
+    - SDWebImage (~> 5.6)
+
+DEPENDENCIES:
+  - SDWebImageLottieCoder (~> 0.1.0)
+
+SPEC REPOS:
+  trunk:
+    - librlottie
+    - SDWebImage
+    - SDWebImageLottieCoder
+
+SPEC CHECKSUMS:
+  librlottie: 45e04dbccbc7b7f4903bc9d729810f5d42469d16
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SDWebImageLottieCoder: a63b40820ea10d36835d8994531baea838593099
+
+PODFILE CHECKSUM: f81c91ac4c6faec79a0ddcf7e373931bc71ff5d4
+
+COCOAPODS: 1.9.1

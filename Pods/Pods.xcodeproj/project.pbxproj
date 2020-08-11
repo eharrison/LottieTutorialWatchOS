@@ -1,0 +1,2234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DD94B797E0733FD9B1DCA14748A05F /* vbezier.h in Headers */ = {isa = PBXBuildFile; fileRef = B78D0F2F1DD5492A6878C8B5F09C6AD0 /* vbezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		010A21434427A1E7CE25060BA3A66A61 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F26CEE9A7AAA8668D3117C1A108F6E6 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0163A7F0AF1E3F4DEED06DA0C37A5F4A /* SDImageAPNGCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A70B60F9630D64425D0D4023808E /* SDImageAPNGCoder.m */; };
+		02A4C8ABD5DCC501DE7A6CE19B398E14 /* SDWebImageDownloaderResponseModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 45800E5D3579C5C28CEA4B3DB6FB003B /* SDWebImageDownloaderResponseModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02B6598C52131C10E3CA344FB49B87FA /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBFCCFEDE4456CE89CDFE83E1E4917C /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		033813F58E3D20FA511AF1B5C3D58FA7 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F3ABCE9907FDDFDBAB534281EAB4E7 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0346ABCF713C4209807CA0A5770ED73C /* lottiekeypath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DCFACFB0021463E3C66FFAAFBCCCBBE /* lottiekeypath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0444B21CCD845D89AC88DB790D1A32F9 /* Pods-LottieTutorialWatchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAA1CB02A7FA27AEAA8938E1B8D4BD3 /* Pods-LottieTutorialWatchOS-dummy.m */; };
+		05BD4A43D88355548F64332A33C61BBA /* rlottie_capi.h in Headers */ = {isa = PBXBuildFile; fileRef = A318A7D676586CAF856FF7A58C4671C6 /* rlottie_capi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07C43862CF5253B4A096F6A913530FE2 /* SDImageLoadersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E65B54902805C9E72C498C1EECD076C /* SDImageLoadersManager.m */; };
+		096ABA2D54C861BA20D4C673B7AC0BC1 /* vrect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676C14FC5F2B79DE9993CB78C5379D75 /* vrect.cpp */; };
+		09DEFD4659636257C033B967AC5196C2 /* SDAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6CDE3B7F7F4932692F5419477AFC /* SDAnimatedImageView+WebCache.m */; };
+		09EB95CBDF8D54EB05C26A5196EBBB65 /* SDDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5A38F5BE2FCBEF15384B425ABA093D /* SDDeviceHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0203526A44EEB4687C282EC7A7D7B7 /* SDImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8584DE7003561BE6C4AD21077DCC14 /* SDImageIOCoder.m */; };
+		0A17278690DD798090616AEF7EC7493D /* vline.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D759D93165885E72EF624189548CFD /* vline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B8451709193CD282E2A497B50E9ACB2 /* lottieproxymodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 382731AA127BFC903D6BE11220D0E7DC /* lottieproxymodel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B89BAD3FF4A144839C582318968EF9B /* vsharedptr.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB6637B61A803B5A45CA49BBBB09930 /* vsharedptr.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CD7B135FD4B84BDB1FB8727A2F85550 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B3211C1EC64EBEE7243B67943ED213A4 /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D05444A429F547A4BDEDC9E23C36879 /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0912873F481A657A44427E432FB013 /* NSButton+WebCache.m */; };
+		0ED03E858ED12DEFA6E86853F2A86A00 /* SDWebImageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF310C48292642E64DAF57DD8A5838 /* SDWebImageIndicator.m */; };
+		0FF3CAEAC56C405ACA4B320F176447D4 /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6DC8B2081089AD034FDB7244F676F2 /* SDAssociatedObject.m */; };
+		104CBAC9F34C7B8475A096C4B0ACA3A0 /* SDImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = AD616C83CBE6FB8D3323D0882FDF50F9 /* SDImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		115D1A205322C514BD68106E576B7196 /* Pods-LottieTutorialWatchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D2D299C0941C493DFF3E8574BB718D /* Pods-LottieTutorialWatchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117C0748D40FF78FF98C41493CA8A30F /* vstackallocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC225AA2410E716C22C42FFEEAAFDA2 /* vstackallocator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1201437E196032353D4D2B2DF8206775 /* SDAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A4E4FC27F771CBC2779EDEEEB474EC /* SDAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128EFBE9343EDF0C57FAAADD49BC56DD /* SDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E77EFC4DADC8E96BFA9F9E58785D69 /* SDDeviceHelper.m */; };
+		12A76A691E704E6EBE12CC888639C31A /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 079B1F122C9F0CF3265290D24786830F /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1367682CED02F22D43F248A0E36CC17B /* SDDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = D40112EA71B48FEF9DABC0C75EEE5F66 /* SDDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		17A9AF6EE329CCFB27654097363C2B8A /* SDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04A089D44E8C75347DDAAF3BC75F4A /* SDAnimatedImageView.m */; };
+		183F84DC6D79A0F93AE6C13F2EDDDCD8 /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4FDD6ACFB9255DC52F59645EBD34D0 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1A04C35F3E2D85CFCAFC9934EAC8E033 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A222EEC94C97034BCD4FADC18EFE65A3 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BEA5654CBFDFB08F9CCC7B449AD0303 /* SDInternalMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FC481BD171A4FF044948C900DBE0B /* SDInternalMacros.m */; };
+		1C001CC04CDC36B8A8FD4E6B58B3786D /* SDWebImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = 48308A04CADCA0B909B4D39D90BAE801 /* SDWebImageError.m */; };
+		21367B89D29B942E036774CC5EDA0DE9 /* SDAnimatedImagePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A8771BFCB697DF38B1168725B5FD7 /* SDAnimatedImagePlayer.m */; };
+		21C120EDFCE3F1B685833EAE2F088998 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA0496F57D1E35B6A1FBF0C268AD080 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24FA831CE2D21172182392093CFF6A7A /* vpath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB4E0CE0F011F9729D82CA1B5D86F /* vpath.cpp */; };
+		27272CF73EAA852668D2E228D58CCC8E /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D645C999A265F960E9BB4B3F4303687 /* SDWebImageDownloaderConfig.m */; };
+		285BB197A61A0553905D872B6E4F6BA1 /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA38B294129D3C890E2FC9A29A9095F /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E2A9A79A3127A5BC3261F38F9F6247 /* vdrawhelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A5F93402F3DDA011AD40F184D7489A /* vdrawhelper.cpp */; };
+		2BA21C438056A776BA8C687B92795035 /* UIImage+ExtendedCacheData.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A1506CEC63F50E565EAC012B40FAE1 /* UIImage+ExtendedCacheData.m */; };
+		2C66BC67E9585BE4A9D37CA596AD39AF /* lottieparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58B7FDF0B54272F080CF81F7EBE030D /* lottieparser.cpp */; };
+		2C76CD4925CE032B419191F3F836F491 /* Pods-LottieTutorialWatchOS WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB2E7E88B61716B31D53F5B769141D /* Pods-LottieTutorialWatchOS WatchKit Extension-dummy.m */; };
+		30DA70F0581FD30987A2CD17C2B77710 /* UIColor+SDHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F67B3443272165B6BAF8D31A4B9361 /* UIColor+SDHexString.m */; };
+		3439946AAAF437DB1E42290FCBEF2F02 /* vdrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84901AD23A85E861160CF93452B98741 /* vdrawable.cpp */; };
+		3460770E76CC3995C02D6ED902FADA6D /* vdrawhelper_neon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1A32FB386AE4DC90CDA2E392909A3 /* vdrawhelper_neon.cpp */; };
+		3460AEA2A172AE2AA51AD87188D42C7F /* vdrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EAB62F497CA01D6336C52FB5635E8F /* vdrawable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34DDE0FB53895EBE36A0C459B2497C03 /* vraster.h in Headers */ = {isa = PBXBuildFile; fileRef = 5265B3E6FA6532E318C70DF90309B102 /* vraster.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36AA959BEC81425BBE36CFC90533C2C4 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8189099832284CDB11982A02AE8FFF48 /* SDImageTransformer.m */; };
+		379633846F8A721501A4C8FBA66B90CB /* vtaskqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 708FEFABC071A907C4767E3B6DF0EDD0 /* vtaskqueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38E6D00AD88B4266C80A08F9369A4107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */; };
+		3A86F204A8068735C7ABFE8E15A43A0A /* lottieanimation_capi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 870CCE0AA7F15316CE3ED45C7DF007D1 /* lottieanimation_capi.cpp */; };
+		3C43195A9A6DCEA90CA473A5716067BB /* vrect.h in Headers */ = {isa = PBXBuildFile; fileRef = D83C0853C3C1D68D497661C9E14C670A /* vrect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D7417DD7E2ABEA1628A32BB29CBDF31 /* vrle.h in Headers */ = {isa = PBXBuildFile; fileRef = F181986AF9C68996841589AC701F2742 /* vrle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F623EF4ABF6BB1B7CEC969FF5DE4BF9 /* SDWebImageLottieCoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02847152035302D2FD3F3B3F313FC42A /* SDWebImageLottieCoder-dummy.m */; };
+		40DD3721BA61598A56ECF57BB1C45EE8 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1343FF292D48AEC825219D9C905D69 /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E823881385B837FA086E301CBBB87C /* UIColor+SDHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3000240B94227B53E603838FE4B0A320 /* UIColor+SDHexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4290A9BFE0F8C8144FF8EB6D057C5AC8 /* v_ft_raster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4628D0FDAFFA9E49AE27847F9844 /* v_ft_raster.cpp */; };
+		42BB3098DC0E47748C6AD61A10575859 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5EC1A981DF7C0B45A7CC811AE1BAE9 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449AF3A1E1DEFBD47B2411DAD0E5D6CC /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E3432E48E101931402C1C45AD4936E79 /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		458397A3CC0DC65EA8B3F12AE94A5295 /* SDWebImageLottieLoaderDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C33F02BC58E78968DF0AA264606EFC /* SDWebImageLottieLoaderDefine.m */; };
+		45C6EB2AB621F3818CC4EB5DBB0D0DE1 /* Pods-LottieTutorialWatchOS WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7312973B6937E6781A05B992732C8A1 /* Pods-LottieTutorialWatchOS WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CFA5C583D7B3BFD0FBAD1F1A474913 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FE36AFDFECB8BE47F4684AA77905F81D /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBEB45DB2BFA563C518B6FE6AA17F9D /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F177CB7AE2F7F39E74C572322C3F67E /* UIImage+MemoryCacheCost.m */; };
+		4F227430C16CAB3FF65A1488229BF46A /* SDImageHEICCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2EA78186B27C08F8666C8F74EFB668 /* SDImageHEICCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50404BB653C8DD0F6CCE2CB33CA6D34A /* SDImageLottieCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7549DF2CF03F5A731DEB4E78826F71EC /* SDImageLottieCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50694F32A7F9B3C0A5FE587AA714DB4C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6DC136D878386B5D20A46C7B3EC48 /* UIImage+MultiFormat.m */; };
+		50E35F6C04E15F3501616932FB984A90 /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F5B7849BCD090B7B04B3C43835A31B /* SDAnimatedImage.m */; };
+		50E3A40CAB7A92F505C4393BD7D1116E /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA804A1F82AA7A6CE387C10BA78D846 /* SDAsyncBlockOperation.m */; };
+		51D599F53FDA2EABE3FAD81B6BAA2B2A /* vdasher.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0E245316594C8D375FD2A07549A4AB /* vdasher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		524AC25A7CED6AB7D8147E7726D5D551 /* SDDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 008243BE2E1E82730CD812109DF2B197 /* SDDiskCache.m */; };
+		5449C418E805E4FA318948940B58F750 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C97DFD6769F275A6BA424D7AF687E2 /* SDWebImage-dummy.m */; };
+		54C04975C9DF43BB9A23E7ECB7B5B3B1 /* vpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 77532AB0FFCE434B0162F8098F56528B /* vpoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		552B26D1BDFC884E50855C2152C38461 /* librlottie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCFB6A97B80126FAE0686B7D59382E /* librlottie-dummy.m */; };
+		561EAFCC4AA4A4FFA55319ACF371D31C /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DBB623F77C6115AC1D92969AC0FF5 /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		56780125865CAB58CF02934466D336FE /* SDWebImageDownloaderDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD22E1B39C154365C4F7C32EBB9FAB9 /* SDWebImageDownloaderDecryptor.m */; };
+		56D4C3BEBAF6D7B57123C4A919EDFC4D /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B07C645BA6B88E073FF1D924F4C9CB6 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59492AB66490947F91EA15A8D7C6FDAC /* lottieloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C07682A9FCC2150E787C97827948F11 /* lottieloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B1031A12A970A0D5C89932E791680F8 /* vimageloader.h in Headers */ = {isa = PBXBuildFile; fileRef = AE887F48B5F51D17928BC0F69E7A33C8 /* vimageloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BCB8102AFF58BDD96E0C059F9B88BB5 /* SDGraphicsImageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4013A10F290A11AB64ABA795F8741BD7 /* SDGraphicsImageRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5058FC446A9C6C4F3FA70C2121A267 /* SDImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0A46B30F5CADB272627A0E919070A8 /* SDImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E96F449788433CD16C308CA4C4974AB /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3C11DB874AC10955DFE25043947103 /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5ED2D31818A9DFE57C16B20CE543D274 /* SDWebImageCacheSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D205201188C58AFC14177D2058CA0 /* SDWebImageCacheSerializer.m */; };
+		63CF566BDF50D1BF9BB38C2C7D3AAAF8 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1065CDB3D270931418CAA2933D6859D3 /* stb_image.cpp */; };
+		64F3EB426774D6F1D593DBFAFFBF6791 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4407FBD45CB032ADCB92DFF14979A4AA /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65846CA0B3651E360DBAA4BF90646811 /* SDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A9E342D53EAC264DFDD3811FEE3B0 /* SDWeakProxy.m */; };
+		6697E5089758D9C3F6A8287220D428EE /* vdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3266977D10B042A8EFF9576A18A08E /* vdebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		682BB72677FA6AD3B70308A406E61097 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F251E2D72D6F9892733F592D651A6D /* UIView+WebCacheOperation.m */; };
+		692F99E41B633423A05F689BDF9BF505 /* SDImageGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE55A54172EFAD2A1AEB3E09378FD2E /* SDImageGraphics.m */; };
+		69FC796803AADF6F7D78E034F759E07A /* SDFileAttributeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A83423BD13799FC358BA39F4C62D685 /* SDFileAttributeHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6A5D45F32D20B06DB9D9D48613A21D2B /* lottieanimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E5939BFE0C768FD9E452D0317CA3E39 /* lottieanimation.cpp */; };
+		6ACAE9157570178C352FC975D8AFA181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */; };
+		6B8E9A4250E31C61FFB2FA44B1ED587D /* SDWebImageDownloaderRequestModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = C01ECD610E442195D19FF3C82FDF2F12 /* SDWebImageDownloaderRequestModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C436845E2EC4FE47217FBEB9E299575 /* v_ft_math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 737020AA0C79202AA0EB45364352A82D /* v_ft_math.cpp */; };
+		6DAB6767A93955D8DE760495559F3D20 /* lottiekeypath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 023C13DEBDE4B35E5E85561E8519D1B8 /* lottiekeypath.cpp */; };
+		6F14B66A0031F8CD2DBD49D05F285A5A /* SDAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF7AC4C1DE4C7632374E902A6C5E1DA /* SDAnimatedImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F35A92AD07BC13FC19CA74A9E612AD3 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F73C3A12BFE698FED837289AF847429 /* SDWebImage.framework */; };
+		6F8C78ADA985735D90183560807E449D /* vinterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6842732DF2884F4B2C7B7E251654D643 /* vinterpolator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FF4B3C1E19E142901D1A1BA305D53B0 /* vpathmesure.h in Headers */ = {isa = PBXBuildFile; fileRef = F601F3DB99586B292D77B23E9A5D8F5D /* vpathmesure.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71B71A99AC058D1C7D9BF5E3F35F2AB2 /* SDWebImageLottieCoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AECA75CCC64171DD93717D2C2A49F1CA /* SDWebImageLottieCoder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71C055BCF544D98F47CCFB404A9157A0 /* SDWebImageTransitionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A44D9461AD3B8D7238AF889A16A5968 /* SDWebImageTransitionInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		71F2F3F1926D36D0FF240F49E556A7F5 /* stb_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE03AD6DC688848988CF3BDBEED9039 /* stb_image.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7320BE37CC5564C9200656A346D16D7C /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 408E14E7FAD90B857E71F4E4661F1831 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754FDA41032137231D3E7F0AAA4AF688 /* vpathmesure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF74C332F9F57FB6FB3C20F06A804B /* vpathmesure.cpp */; };
+		758D45C8E630A9B2A29746AFAB257929 /* UIImage+ExtendedCacheData.h in Headers */ = {isa = PBXBuildFile; fileRef = D15C624495C58F5670D79079C13FB44E /* UIImage+ExtendedCacheData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7829F86094FA530717C4AF09DFA1FCB7 /* SDImageGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = F34847124B07A5CAD06ADD8E435C8758 /* SDImageGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783A6CE16AE07CD9D7A1F2EC66B89B82 /* SDImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B004D3A0F683A619EE3CDB3576FC21E /* SDImageGIFCoder.m */; };
+		78A8F86E5996E580294B65E304C65F6A /* SDImageCachesManagerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 42DF95D650BA5EE3174D12CFE6B5F30A /* SDImageCachesManagerOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		79140F3DB1DFA9969EF7EA809862461B /* SDImageIOAnimatedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F8008EA30BD19F412F970C951D3ABE /* SDImageIOAnimatedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79642E2EBF18C315DE62953996D39A9E /* SDImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA44CB37B75B3E4109C754A22D5A6C /* SDImageAssetManager.m */; };
+		7BDCFF16AD5094651DDF91E007A194A1 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D631DEB61ABDFC15E7488947AE60C4 /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C98864A9ED544D3A91D2BFA42D942B9 /* librlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = D80291A9D4C9A84E923966C4EFC0CF35 /* librlottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C9BCCE2BE2AB0F74617E9638E8383E2 /* SDAsyncBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA99C92F289CE7656DBD050DF4E266A /* SDAsyncBlockOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7CB9508A6133F4674F3358339F62CF03 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9906B64C5B0CE6903ECC39830998F810 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD9214AFB90D23E3F48505B607204E1 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A494FB1CC60C08FF8547AD72CC49A81F /* SDImageCache.m */; };
+		7D0F7EC370A67B6F66D0EDDFD1398737 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53160652E010BFC60AAE7B08C6D3A8 /* UIImage+ForceDecode.m */; };
+		7E06D4ECA9FF501B539EBAEE3DC05356 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CE266B493CBDED224700191BC69C3B /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E12353068AF9C56E5DF4E45FC40E6C5 /* rlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F8680A95F1D3F6021A12F998E8EADF /* rlottie.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7EEFE2896B3524AFAB0B015FCC8F5435 /* vdrawhelper_sse2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C76922EE29D061894001060C2C7E3F9 /* vdrawhelper_sse2.cpp */; };
+		80C5ED41C3D6A09655A040DF4410BD7E /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427E7EB63D9D72A86DE579F01822DD3 /* SDWebImageDownloader.m */; };
+		82B8CA4C69F6BA4AA2FE7FC8BE95A71C /* UIImage+Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C83DF92F977A40DC9D62F26F6663EA /* UIImage+Metadata.m */; };
+		838B6BEF96FBB5B7C7BF3A1C8814CAF5 /* SDImageIOAnimatedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4508EC88F98C0B668FF81DCEA13071 /* SDImageIOAnimatedCoder.m */; };
+		83DD2FF118773A46901DB8318B385CE5 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E07A5E3F4B02314E7F1B794CD31AF6 /* SDWebImageDownloaderOperation.m */; };
+		855167FF76C2DBB0C560B39D3CA2D26F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */; };
+		8562E58FC55EFB48529FF3530FF6CFDA /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED968AD7D9AFA874F8682526C7D07 /* UIImageView+WebCache.m */; };
+		858BA6CE212BDE681F7B8EC99CDEA5A2 /* SDImageLoadersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3D9FE88788ED85D52CD1BCC215C0DC /* SDImageLoadersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B91AFDF4CF2F4FB54D35AE96CB02DE /* SDAssociatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B888B6BDAA6E69FAFF52B85D49FF3673 /* SDAssociatedObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		866BC96BD538D3BDD0F8E6C3C1FF779E /* vmatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA5311899ECC5FC8AFE4B78ABA9032 /* vmatrix.cpp */; };
+		86A92CFC75F685F5805824C81ED34DD9 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E05F84A497D6E5F1EAE166EEB2D949C /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		873A350A0687A1FC21E6B8898905C00A /* SDImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B39EA8EEC27BCCF75BAD20F5981AB /* SDImageCodersManager.m */; };
+		8834B9A048F8C73839AE4C368751D878 /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBC0932647596FA7349B06395DD93C /* SDImageCoder.m */; };
+		8860B7C942F4FDAC599E545DEC6E0446 /* SDImageAssetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E104BF5076EEA86D7C70EC72663B9A /* SDImageAssetManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		89921B6B9281341C6B92CD705049B38B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1EBEDF944B5226148E45361610B370 /* ImageIO.framework */; };
+		8A00773708860A349904DA584C466931 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C053479A8474ABF784A56F25D0D95C13 /* SDWebImagePrefetcher.m */; };
+		8A6A585B19A62D6B4F6E3AA87F021AE9 /* vdrawhelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6486F603718DF9F1259C12DFF4DC3D1D /* vdrawhelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BE030582BFA5590BC7A1EB1A7E8DDC4 /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = BB623FB6E53F12AF45B573B0948DD7A8 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D1CE94C4D35C33252EB4C299522857C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */; };
+		8DB15CDD967ECA7F7643165570406491 /* vdasher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B84AFF45F2E9D75F6F29CFA6A2ADC9 /* vdasher.cpp */; };
+		8FF765E92AD7103E98A3015AF7DC06B6 /* rlottiecommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8D45FE19C65CF732D1CA043B7603D2 /* rlottiecommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9140B89832569466DC295558951FF9A4 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC425E864D31CF7712AA05C2EA46EF0 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212629910630E2F8888272B38EA81E4 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 846D6D00B48FD760FB1DEEDE17835CD9 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BEA54D5F71BA4A50431AF53CC00D87 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC959643EE88EF0152D1FBAD802DC8 /* SDWebImageCompat.m */; };
+		9413B1190B624C893FA9BAE8457B6445 /* varenaalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 476B927E784AF62CCED8CA57E0CB71A5 /* varenaalloc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94976FD44B34409D228C8CA6CECD1B6F /* lottiemodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B345652794BA3DB17D38AB1B0F2902A /* lottiemodel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		949BA4CC204D826571EA4E85BA769DB7 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E920BF4B583F2A39E3D617A368EEF0 /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D70798AF08A9AF6AC0455ABAC50B31 /* SDWebImageError.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C980551962513CEF23DB304DB7AF8B /* SDWebImageError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F5728479498C4E8781674F532A8DA7 /* SDWebImageLottieCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD558D36F1D7CA9300D412AC67B32C6 /* SDWebImageLottieCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961F648636755D94B6BC3E9BEF4BC5BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */; };
+		96BC6406D527EB877E451C53E5D9348E /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F25EAB3C22864168BD1242EFE151A74 /* NSData+ImageContentType.m */; };
+		98FC0ABEE92FFECD6B58AE3BD058BCD4 /* vrle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5901EEC319A028B4F4A32CBBA9A1EFB0 /* vrle.cpp */; };
+		9B0ADFBD0EE010BC1AE32B290FAF2D70 /* SDAnimatedImagePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A9166287B3A0741173A9258D3E766BE0 /* SDAnimatedImagePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2CA92DABE7B2C299F37DF6DE570E2A /* SDGraphicsImageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40966C3DAD6FB35F99A29B7B06A1F6D6 /* SDGraphicsImageRenderer.m */; };
+		9BF0D94ACCA22A0AF8FEB39DAEC90D9E /* v_ft_math.h in Headers */ = {isa = PBXBuildFile; fileRef = 4591E35B5D1032BE2348B1584DA642DF /* v_ft_math.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C39FA3EB2A9462B249432F655FC9AA8 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A474C9BBD1B6DDD63578FF8E3D5C197 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6F61B6DD8964A03128BB996BCCCDF5 /* NSImage+Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = E532C93BAEA8FC76D9CB0D619A4CA030 /* NSImage+Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC08F5A59D7FC7661C3BFD70624A73D /* lottieproxymodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8B4D1170475764B10F417A114553D17 /* lottieproxymodel.cpp */; };
+		9CCD03079CB504BD324FAEC99C6F4D5E /* vpainter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10D08CBE50834BF0C281F714A1FA4112 /* vpainter.cpp */; };
+		9CD8D67A8A4D38832D6E1F2FB8980FC5 /* v_ft_stroker.h in Headers */ = {isa = PBXBuildFile; fileRef = B518EB74D524F0FE0EEDEB80095405B5 /* v_ft_stroker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D09FCC0BFB4509374721057EB0724A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */; };
+		9E79F203E44BE592EB91DC64BFC94A41 /* Pods-LottieTutorialWatchOS WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78118CEDF975477F43F7AF126E94FDA6 /* Pods-LottieTutorialWatchOS WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B62D4B373543D743AC938090EF65F2 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = FED773F7F80E5A592616A148C8699150 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A26011648EA7CD910788DBBF08C36F32 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2B75AC7326EE3BE7146DA74616855C /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3A38FFF99F8F65D21F6526D4D257230 /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AED0B1D006208DECA468BF2F1192017 /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5AD02C445E69C15836B9F7FF6A6A7FB /* SDWebImageCacheKeyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 649F7C2A9B3C25A478E7588971D666FC /* SDWebImageCacheKeyFilter.m */; };
+		A628C33E9B14DEDAC0A438DB3CC934D1 /* velapsedtimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7AC2D39714B452DA34C17A202C2E943 /* velapsedtimer.cpp */; };
+		A8A6C77B758EDCE853712C5A95F49D7C /* vbrush.h in Headers */ = {isa = PBXBuildFile; fileRef = 9671C41257DE681F460D5C479F42F792 /* vbrush.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8BD819AA781FC0BAEBE938B5134E2B5 /* librlottie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8EE17A632209BD1C7F0BE21FE28A6A /* librlottie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3D149E58FF8525DDE0DEE7F6B6EC80 /* vraster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AE808203A19F0F55D09734F6D00D953 /* vraster.cpp */; };
+		AD8414FC2EDF8B64AEAF989BB6AB2B0F /* SDFileAttributeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E985045A40596F9A25002D343B1CA4 /* SDFileAttributeHelper.m */; };
+		AF09E6F1BAE4C1AC1AB5D729C5AB1C96 /* vbrush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B5FDEB4C46958E11218DF282097FD33 /* vbrush.cpp */; };
+		B05FFB6083465142F6276AA0CEE33788 /* v_ft_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C8823C5636678EF15DD88905C38E96 /* v_ft_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B52576B08EFC9D67F218CC2DAC542AF4 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E4510E5BC9495DE24C639FD1B5AA32 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A52B7697F15B487F846F3DA1CB3896 /* SDWebImageIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A834D52AF7463BB58FD02E71ACE7EB /* SDWebImageIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7AC7199CDB640965068EFE4F457D54E /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39429B8A52E056E4BD61596C13999E82 /* SDWebImageManager.m */; };
+		B8A009CEAFD508CE84FBDD4A3A4B10C7 /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 98860DF58E3B6CA7BB9447076E4F882B /* SDDisplayLink.m */; };
+		B92CB6650F2D0B6EFFFA70C37C2FFCD2 /* SDImageCacheDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0107B5CA0C255244EC4E9B7C851D3C77 /* SDImageCacheDefine.m */; };
+		BC444EE0B534D0AA6A48BA231A524A41 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A25236B1E815322555C8B7494CA0DA0 /* UIImage+GIF.m */; };
+		BD8D08FD91DE12E4AB972B3586E3CE85 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B51AB8C4C17422C4349AFE2CC436FF /* UIView+WebCache.m */; };
+		C0FF62748CDE31A8524AE67070E8537F /* vmatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4D5E6C06BC8E0844D3ECD1FAF370E7 /* vmatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C13BE2F7058C4B2DB6A52FFFD651394C /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B2C624C2F2D426B23C74F51A3E8151 /* UIImage+Transform.m */; };
+		C2932038ECAC0C7FD0B1B5D5E19DE4A9 /* SDWebImageDownloaderResponseModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F695AC82A7409C1011E53AE42CEBF /* SDWebImageDownloaderResponseModifier.m */; };
+		C370079ADD0F53B4629F4DD1AF0242F0 /* lottieitem_capi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9597E7AF8C37BFA067D46DC6B20EBC0E /* lottieitem_capi.cpp */; };
+		C49177BC5D4B002C7B3A7E48A5C01336 /* Pods-LottieTutorialWatchOS WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 532831D6B70B7ED5E77697A847374808 /* Pods-LottieTutorialWatchOS WatchKit App-dummy.m */; };
+		C53D2FC6DF3D2050702B524B2FB17E45 /* vpainter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5CA2D62C1C4045E52F063EA7AB8AE3 /* vpainter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C571B45A1AA104D12EEC5676685C1889 /* v_ft_raster.h in Headers */ = {isa = PBXBuildFile; fileRef = F408566756C84DB71D9E57FE3363AB2A /* v_ft_raster.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5D745FB9C67A1D9D71429B56587571D /* vglobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5C45C6866015EEFF4734C239B423EE /* vglobal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6B18C54AF037EFF6980D1DA72CD8F1C /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC737F74510BC623AFECF54B9B7FCBD /* SDImageCachesManagerOperation.m */; };
+		C854CD2F89E00E88FB1D6669A770DEE0 /* SDWebImageDownloaderDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3EAB85FFB1EA435F5DC0C6E4A934FD /* SDWebImageDownloaderDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C88E97ED465D3973A3D9FD7AE94BDB9A /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E984A7E895FAF95FA47F92000A91FCF0 /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9BE69506E9357DED77DD8F490FDFEA0 /* lottieitem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EF40992CAB5CD2AC0F510A580F4C6E1 /* lottieitem.cpp */; };
+		CB7FD6CF36B7E0D67976FB6A3B75801C /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1CF22F37CF379EE0962675BEB085DF /* SDImageCacheConfig.m */; };
+		CBA469E2DD8702DECB634A81F850C516 /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 66ED5A1EF8D88E295B314561F37680F0 /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCEF1E548BE78064BE12CC29D9977A28 /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AC47DA82968231CDA23DF8732DF2E8 /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD06DC5FCA424D8A0928068BEB8AF2E5 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8461ED264FC841839244B5527FDA7CB4 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE25ED9DF0A78462C592C70C223C111 /* vpath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6F2329DDD4494479EED68C46C848E1 /* vpath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF1AA8850ED16C5F49B61BC3A9B13DD7 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCE07C7D6F52DF88BAE6DCBB80BE8BC /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0725567B7BD18C79A04E5EC9C72249D /* NSBezierPath+SDRoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FE5027FAEEC2552614006B9ACB23FC /* NSBezierPath+SDRoundedCorners.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D1D4A6C6CF29B86E3EAFFBAADBB73A05 /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D963C495750A09A5A8E24DB97618B791 /* SDImageCoderHelper.m */; };
+		D219BB010B08AD9D600A120B85B4E3EC /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD695D1F1D35F26C8DACD8687D109E /* SDWebImageTransition.m */; };
+		D347FCF56E468483A546E1F611DE081C /* SDImageHEICCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F43AAF1E1953F8C327792270381AAD2 /* SDImageHEICCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D3924E92CBDDC8E59A2EB329B4941BDE /* vcompositionfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F30F2FCE84E3FE02B35AC50A2D1FEC1D /* vcompositionfunctions.cpp */; };
+		D4341B6329BD5B954830C552C70E7349 /* lottiemodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CE1C1D16E9CF4448104377C93E9DD5 /* lottiemodel.cpp */; };
+		D6C44AD965255E35DEF2A3BAEF205D11 /* NSImage+Compatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 002698A7C2E3D3EAFA1755BFA4A5F7EE /* NSImage+Compatibility.m */; };
+		D6FDFE95CEDBD0A41D4E16FDB1599FA9 /* SDImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C86943E45703CF789FF1CE9A0D924977 /* SDImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BA2B9647DF80AE7D97AC8380A4DBED /* SDWebImageOptionsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACF706B8BE8B25EFFB65419FAAD50D1 /* SDWebImageOptionsProcessor.m */; };
+		D81C6F330ADDA0DE7357A43CBCF1B5CB /* librlottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EC87D63DCF5088A8810FF23513F363 /* librlottie.framework */; };
+		DA1F5EB06521252BF63369AFEF914368 /* SDWebImageOptionsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = E43E94B6DC807E26579F26FDC3094FE4 /* SDWebImageOptionsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9923D81FF3CC6F34E07A6DE7C401DB /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA6C9729020DDF57F5F0EA5A7494D02 /* UIImageView+HighlightedWebCache.m */; };
+		DC9999C4635EB1F887E657765307F37F /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F68C9743F6F90B5DCDA09CA0B4B12D63 /* SDImageHEICCoder.m */; };
+		DCB3F216CE713744B77F54A0F7B88228 /* vdebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE46920E1C35FA5148BBA2837B4950 /* vdebug.cpp */; };
+		DCDC5264F294AB9A622D368F2F7FA336 /* UIImage+Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1F21EF13B93DAF9D34233E4595AE47 /* UIImage+Transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE311CA167D40330E2B71F4726A6B789 /* SDDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FC5C85E51A23FA9CC6A33E7F94B167 /* SDDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFE7857272AA4CDEC686248E790174F9 /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF3B48C00501F1A0887CF1537EB5D2C /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E02E048DA4B33649F03623F5F8F7EC7F /* SDWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 081907849EBED0B3126E0DC9D61522E8 /* SDWebImageOperation.m */; };
+		E1E1496C800A668D619F3D1375A636B6 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C226C3A903C3D7AC60CF96468616C /* UIButton+WebCache.m */; };
+		E4D1777DFE70BB6664899D7E638B68AE /* velapsedtimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DFDB0B80CFAF0CBA7DA6988620998D /* velapsedtimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E53CD0ACE5EA032CDD13B66B91A6EFF1 /* NSBezierPath+SDRoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC98FEFC0CAA6006D36C3AACC22433 /* NSBezierPath+SDRoundedCorners.m */; };
+		E62D6462946EB3B8CCF92DBB62DA1095 /* SDImageLottieCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A875E55C995EA3CE62996685681E5DF4 /* SDImageLottieCoder.m */; };
+		E7266534EA74BE8DF0B43496D97031F0 /* vbitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AD84A9788E3C645D805443B0B10AD0 /* vbitmap.cpp */; };
+		E8C4FE5983E443874EFFA84E8032854D /* vimageloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2320A5E599BF08E4FBA3BB0ACC17D1F /* vimageloader.cpp */; };
+		E8F013711E345D6DB741BE911F46D5CE /* varenaalloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99797FA0990BF2D1BD75810F181EA41 /* varenaalloc.cpp */; };
+		E9AE8496AC56E93D74F8577CD0DD0ED4 /* vinterpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA7855D5B14A4F3668BF2C223DCAE8EB /* vinterpolator.cpp */; };
+		E9B97B2FD84DF4015AABD7E5978A710F /* SDImageCachesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAF973974E68E2E35983ECE006782EE /* SDImageCachesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA50654643EF702D7F2DD17534459EAB /* SDImageIOAnimatedCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0286E9054BEBBB21B2770B34809A1C52 /* SDImageIOAnimatedCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EAF7185C2BB8C87A04BB2BFEF6459683 /* SDWebImageLottieLoaderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CA87A67E647DFCD36CA78B38661A2EAB /* SDWebImageLottieLoaderDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB634403E13B36687931F62769C04F66 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = E0864122BD06AA3C57DA5EAC3C5E0FC2 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8BA3F688C99AF4906F16E6B13356EC /* lottieloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A7042C5B35D7F6E0137EBAB02D10C0E /* lottieloader.cpp */; };
+		ECE1AE4108383C23582A21B66AC5D991 /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C25F165285EC99703028741580E1ED /* SDAnimatedImageRep.m */; };
+		EDDA4192F02FE075B653F490513240A7 /* v_ft_stroker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A736EB7AFD026C42981FE6EB6E78DA /* v_ft_stroker.cpp */; };
+		F018518837548C0FDFA50046C6560370 /* SDImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DE4F4215F27E3EC265A40F783D4F92 /* SDImageFrame.m */; };
+		F14F1DDF5B75048141C8302B24D4718A /* vbitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = A18552D25A0E46762796B61B9D0B48B3 /* vbitmap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2005FAA20369D8319480650BEDF472D /* vcowptr.h in Headers */ = {isa = PBXBuildFile; fileRef = E00F619B9EBB5B5B66EE1CE72AFEB696 /* vcowptr.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F223290E30E3FBC1613B8087D7B945F2 /* vbezier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D8EE3FDE942BA72AABAFC929B1248 /* vbezier.cpp */; };
+		F313316E65DBF47DD3524A3932AF05EC /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 489AC201904828E5F52C8F83EF7D9B56 /* SDMemoryCache.m */; };
+		F71B800721339454E1EB110BB76D6A62 /* SDWebImageDownloaderRequestModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ADD60DD440803C7917BAC16A5B8E1 /* SDWebImageDownloaderRequestModifier.m */; };
+		F82CA60DC2AD0D30B9A76C882E9CC7B8 /* SDImageCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C01C56C409BAEC3581C01FCA441343 /* SDImageCachesManager.m */; };
+		F94747ABC283D6BCFCFF080753AEC5B9 /* SDWebImageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 809BA5EC4EEBA427CA306B81A8FB448B /* SDWebImageDefine.m */; };
+		FA9B235CCA3EA2B83D051C515EA6CECC /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EF831FE0E4F3E285E0036052ECB817 /* SDImageLoader.m */; };
+		FC4DE0456F37E3F47195E5F969314E0F /* SDMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1090FF924C932854F266678A93D7C71F /* SDMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5E54109CC0090D7CA4492C6225E5BB /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B95AED0C4480178DEA7B348CD1D32F27 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE08DAD12BBDC50036128E3CAE6FBD2F /* lottieitem.h in Headers */ = {isa = PBXBuildFile; fileRef = 028B6C1B4F0AEBA3FCCB6115F15A6F82 /* lottieitem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEE4ED9ED5B566323F3C38039E43DF36 /* lottieparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 92221392BACECD15BFBFB8BE87B364C2 /* lottieparser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEF33326D4B5B59DFD0CA1DFAD4001FC /* SDWebImageCacheKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA781AF0EF15464EB0A318ECCAE2AE3 /* SDWebImageCacheKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6C29354A021327D3FF6707964B0D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
+		5F68E212053D4F7AE627369C4F99CC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABAD27FBBB74C56660AA2577984C3B0;
+			remoteInfo = librlottie;
+		};
+		66F7BFE5E5211C0991EE102728F5E56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABAD27FBBB74C56660AA2577984C3B0;
+			remoteInfo = librlottie;
+		};
+		C1C9C998C33E13E8E4DA838CF5EA2E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
+		DA799D6DF43DC96CAF73CE993F7483FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D47088BC4D04E2CC703942B7135B6CDC;
+			remoteInfo = SDWebImageLottieCoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002698A7C2E3D3EAFA1755BFA4A5F7EE /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
+		008243BE2E1E82730CD812109DF2B197 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
+		0107B5CA0C255244EC4E9B7C851D3C77 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
+		01FB6CDE3B7F7F4932692F5419477AFC /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
+		023C13DEBDE4B35E5E85561E8519D1B8 /* lottiekeypath.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottiekeypath.cpp; path = rlottie/src/lottie/lottiekeypath.cpp; sourceTree = "<group>"; };
+		02847152035302D2FD3F3B3F313FC42A /* SDWebImageLottieCoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageLottieCoder-dummy.m"; sourceTree = "<group>"; };
+		0286E9054BEBBB21B2770B34809A1C52 /* SDImageIOAnimatedCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoderInternal.h; path = SDWebImage/Private/SDImageIOAnimatedCoderInternal.h; sourceTree = "<group>"; };
+		028B6C1B4F0AEBA3FCCB6115F15A6F82 /* lottieitem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lottieitem.h; path = rlottie/src/lottie/lottieitem.h; sourceTree = "<group>"; };
+		02A4E4FC27F771CBC2779EDEEEB474EC /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
+		02FC5C85E51A23FA9CC6A33E7F94B167 /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
+		0427E7EB63D9D72A86DE579F01822DD3 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		04E4510E5BC9495DE24C639FD1B5AA32 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		06AF15181E1DD5732B51CF9D2B916CC5 /* Pods-LottieTutorialWatchOS WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LottieTutorialWatchOS WatchKit App.modulemap"; sourceTree = "<group>"; };
+		06C980551962513CEF23DB304DB7AF8B /* SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageError.h; path = SDWebImage/Core/SDWebImageError.h; sourceTree = "<group>"; };
+		079B1F122C9F0CF3265290D24786830F /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
+		081907849EBED0B3126E0DC9D61522E8 /* SDWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOperation.m; path = SDWebImage/Core/SDWebImageOperation.m; sourceTree = "<group>"; };
+		088F892B9B2CC4DCF2E22FB471B32005 /* Pods-LottieTutorialWatchOS WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieTutorialWatchOS WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		09A1506CEC63F50E565EAC012B40FAE1 /* UIImage+ExtendedCacheData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ExtendedCacheData.m"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.m"; sourceTree = "<group>"; };
+		09CE1C1D16E9CF4448104377C93E9DD5 /* lottiemodel.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottiemodel.cpp; path = rlottie/src/lottie/lottiemodel.cpp; sourceTree = "<group>"; };
+		0A69FDA8462A7C0D43548A08D02B099D /* Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		0AAF310C48292642E64DAF57DD8A5838 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/Core/SDWebImageIndicator.m; sourceTree = "<group>"; };
+		0B7E38DA9B6A30F165D1B91FEEB9C4D3 /* Pods-LottieTutorialWatchOS WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LottieTutorialWatchOS WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C5CA2D62C1C4045E52F063EA7AB8AE3 /* vpainter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vpainter.h; path = rlottie/src/vector/vpainter.h; sourceTree = "<group>"; };
+		0CA99C92F289CE7656DBD050DF4E266A /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
+		0CC425E864D31CF7712AA05C2EA46EF0 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
+		0D8EE17A632209BD1C7F0BE21FE28A6A /* librlottie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "librlottie-umbrella.h"; sourceTree = "<group>"; };
+		0EBFCCFEDE4456CE89CDFE83E1E4917C /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/Core/SDWebImageTransition.h; sourceTree = "<group>"; };
+		0F177CB7AE2F7F39E74C572322C3F67E /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
+		0F25EAB3C22864168BD1242EFE151A74 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/Core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		0F3C11DB874AC10955DFE25043947103 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
+		0F3D9FE88788ED85D52CD1BCC215C0DC /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
+		1065CDB3D270931418CAA2933D6859D3 /* stb_image.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = stb_image.cpp; path = rlottie/src/vector/stb/stb_image.cpp; sourceTree = "<group>"; };
+		1090FF924C932854F266678A93D7C71F /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/Core/SDMemoryCache.h; sourceTree = "<group>"; };
+		10D08CBE50834BF0C281F714A1FA4112 /* vpainter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vpainter.cpp; path = rlottie/src/vector/vpainter.cpp; sourceTree = "<group>"; };
+		11AC98FEFC0CAA6006D36C3AACC22433 /* NSBezierPath+SDRoundedCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+SDRoundedCorners.m"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.m"; sourceTree = "<group>"; };
+		12C25F165285EC99703028741580E1ED /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/Core/SDAnimatedImageRep.m; sourceTree = "<group>"; };
+		13BAA769B95867A441D5A0490162EB29 /* Pods-LottieTutorialWatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieTutorialWatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		140845CCAB2114C856192B4D96955302 /* Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		18B9E04A2F133F651331831568A52AD0 /* Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		1A83423BD13799FC358BA39F4C62D685 /* SDFileAttributeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDFileAttributeHelper.h; path = SDWebImage/Private/SDFileAttributeHelper.h; sourceTree = "<group>"; };
+		1AE808203A19F0F55D09734F6D00D953 /* vraster.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vraster.cpp; path = rlottie/src/vector/vraster.cpp; sourceTree = "<group>"; };
+		1AED0B1D006208DECA468BF2F1192017 /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/Core/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
+		1AFF689D9505A5787C62A83C14FAFDA1 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		1B07C645BA6B88E073FF1D924F4C9CB6 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		1B302C354FD0B75A344507DBC4440ECA /* SDWebImageLottieCoder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImageLottieCoder-Info.plist"; sourceTree = "<group>"; };
+		1D645C999A265F960E9BB4B3F4303687 /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/Core/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
+		1F73C3A12BFE698FED837289AF847429 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2115D203F6B6547808DB8C3914F26262 /* Pods-LottieTutorialWatchOS WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LottieTutorialWatchOS WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		24E07A5E3F4B02314E7F1B794CD31AF6 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/Core/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		26B84AFF45F2E9D75F6F29CFA6A2ADC9 /* vdasher.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vdasher.cpp; path = rlottie/src/vector/vdasher.cpp; sourceTree = "<group>"; };
+		274C226C3A903C3D7AC60CF96468616C /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		28C01C56C409BAEC3581C01FCA441343 /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
+		29F5B7849BCD090B7B04B3C43835A31B /* SDAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImage.m; path = SDWebImage/Core/SDAnimatedImage.m; sourceTree = "<group>"; };
+		2A474C9BBD1B6DDD63578FF8E3D5C197 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/Core/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		2AFD654463BEBD72F9DFE368AA92F03F /* Pods-LottieTutorialWatchOS WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LottieTutorialWatchOS WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		2B345652794BA3DB17D38AB1B0F2902A /* lottiemodel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lottiemodel.h; path = rlottie/src/lottie/lottiemodel.h; sourceTree = "<group>"; };
+		2B3C4628D0FDAFFA9E49AE27847F9844 /* v_ft_raster.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = v_ft_raster.cpp; path = rlottie/src/vector/freetype/v_ft_raster.cpp; sourceTree = "<group>"; };
+		2B5C45C6866015EEFF4734C239B423EE /* vglobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vglobal.h; path = rlottie/src/vector/vglobal.h; sourceTree = "<group>"; };
+		2EF40992CAB5CD2AC0F510A580F4C6E1 /* lottieitem.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottieitem.cpp; path = rlottie/src/lottie/lottieitem.cpp; sourceTree = "<group>"; };
+		3000240B94227B53E603838FE4B0A320 /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
+		31C97DFD6769F275A6BA424D7AF687E2 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		32BD695D1F1D35F26C8DACD8687D109E /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
+		35EC87D63DCF5088A8810FF23513F363 /* librlottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = librlottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		382731AA127BFC903D6BE11220D0E7DC /* lottieproxymodel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lottieproxymodel.h; path = rlottie/src/lottie/lottieproxymodel.h; sourceTree = "<group>"; };
+		38C83DF92F977A40DC9D62F26F6663EA /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
+		39429B8A52E056E4BD61596C13999E82 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
+		3A44D9461AD3B8D7238AF889A16A5968 /* SDWebImageTransitionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransitionInternal.h; path = SDWebImage/Private/SDWebImageTransitionInternal.h; sourceTree = "<group>"; };
+		3B53160652E010BFC60AAE7B08C6D3A8 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
+		3C6F2329DDD4494479EED68C46C848E1 /* vpath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vpath.h; path = rlottie/src/vector/vpath.h; sourceTree = "<group>"; };
+		3CC1A32FB386AE4DC90CDA2E392909A3 /* vdrawhelper_neon.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vdrawhelper_neon.cpp; path = generate/vdrawhelper_neon.cpp; sourceTree = "<group>"; };
+		3CD22E1B39C154365C4F7C32EBB9FAB9 /* SDWebImageDownloaderDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderDecryptor.m; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.m; sourceTree = "<group>"; };
+		3DAF973974E68E2E35983ECE006782EE /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
+		3DE03AD6DC688848988CF3BDBEED9039 /* stb_image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = rlottie/src/vector/stb/stb_image.h; sourceTree = "<group>"; };
+		3EB6637B61A803B5A45CA49BBBB09930 /* vsharedptr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vsharedptr.h; path = rlottie/src/vector/vsharedptr.h; sourceTree = "<group>"; };
+		3EED4E63C16ACE1BC5B250C5A2AF9274 /* SDWebImageLottieCoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImageLottieCoder-prefix.pch"; sourceTree = "<group>"; };
+		3F163625A593D3BB29CBF46BE71729D0 /* librlottie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "librlottie-Info.plist"; sourceTree = "<group>"; };
+		4013A10F290A11AB64ABA795F8741BD7 /* SDGraphicsImageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDGraphicsImageRenderer.h; path = SDWebImage/Core/SDGraphicsImageRenderer.h; sourceTree = "<group>"; };
+		408E14E7FAD90B857E71F4E4661F1831 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		40966C3DAD6FB35F99A29B7B06A1F6D6 /* SDGraphicsImageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDGraphicsImageRenderer.m; path = SDWebImage/Core/SDGraphicsImageRenderer.m; sourceTree = "<group>"; };
+		42D759D93165885E72EF624189548CFD /* vline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vline.h; path = rlottie/src/vector/vline.h; sourceTree = "<group>"; };
+		42DF95D650BA5EE3174D12CFE6B5F30A /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
+		4337D75E6B0628F1FE059228B45716F4 /* SDWebImageLottieCoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImageLottieCoder.modulemap; sourceTree = "<group>"; };
+		43DFDB0B80CFAF0CBA7DA6988620998D /* velapsedtimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = velapsedtimer.h; path = rlottie/src/vector/velapsedtimer.h; sourceTree = "<group>"; };
+		4407FBD45CB032ADCB92DFF14979A4AA /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
+		45800E5D3579C5C28CEA4B3DB6FB003B /* SDWebImageDownloaderResponseModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderResponseModifier.h; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.h; sourceTree = "<group>"; };
+		4591E35B5D1032BE2348B1584DA642DF /* v_ft_math.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = v_ft_math.h; path = rlottie/src/vector/freetype/v_ft_math.h; sourceTree = "<group>"; };
+		476B927E784AF62CCED8CA57E0CB71A5 /* varenaalloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = varenaalloc.h; path = rlottie/src/vector/varenaalloc.h; sourceTree = "<group>"; };
+		48308A04CADCA0B909B4D39D90BAE801 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/Core/SDWebImageError.m; sourceTree = "<group>"; };
+		489AC201904828E5F52C8F83EF7D9B56 /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
+		496ADD60DD440803C7917BAC16A5B8E1 /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
+		4C2EA78186B27C08F8666C8F74EFB668 /* SDImageHEICCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoder.h; path = SDWebImage/Core/SDImageHEICCoder.h; sourceTree = "<group>"; };
+		4C76922EE29D061894001060C2C7E3F9 /* vdrawhelper_sse2.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vdrawhelper_sse2.cpp; path = rlottie/src/vector/vdrawhelper_sse2.cpp; sourceTree = "<group>"; };
+		4CA38B294129D3C890E2FC9A29A9095F /* SDImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoderHelper.h; path = SDWebImage/Core/SDImageCoderHelper.h; sourceTree = "<group>"; };
+		4CD558D36F1D7CA9300D412AC67B32C6 /* SDWebImageLottieCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageLottieCoder.h; path = SDWebImageLottieCoder/Module/SDWebImageLottieCoder.h; sourceTree = "<group>"; };
+		4E1A9E342D53EAC264DFDD3811FEE3B0 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
+		4E5939BFE0C768FD9E452D0317CA3E39 /* lottieanimation.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottieanimation.cpp; path = rlottie/src/lottie/lottieanimation.cpp; sourceTree = "<group>"; };
+		4E81D0AD97103E9B700A8875F4D5F73C /* Pods-LottieTutorialWatchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieTutorialWatchOS-Info.plist"; sourceTree = "<group>"; };
+		4EC225AA2410E716C22C42FFEEAAFDA2 /* vstackallocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vstackallocator.h; path = rlottie/src/vector/vstackallocator.h; sourceTree = "<group>"; };
+		5265B3E6FA6532E318C70DF90309B102 /* vraster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vraster.h; path = rlottie/src/vector/vraster.h; sourceTree = "<group>"; };
+		532831D6B70B7ED5E77697A847374808 /* Pods-LottieTutorialWatchOS WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LottieTutorialWatchOS WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		56E920BF4B583F2A39E3D617A368EEF0 /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/Core/SDImageTransformer.h; sourceTree = "<group>"; };
+		57D642AB62267F5A9BF1B0E0A355B39E /* SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.release.xcconfig; sourceTree = "<group>"; };
+		5901EEC319A028B4F4A32CBBA9A1EFB0 /* vrle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vrle.cpp; path = rlottie/src/vector/vrle.cpp; sourceTree = "<group>"; };
+		5B33B8DF532157D6FC098D0062771ACB /* librlottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = librlottie.debug.xcconfig; sourceTree = "<group>"; };
+		5B4D5E6C06BC8E0844D3ECD1FAF370E7 /* vmatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vmatrix.h; path = rlottie/src/vector/vmatrix.h; sourceTree = "<group>"; };
+		5BA804A1F82AA7A6CE387C10BA78D846 /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
+		5BB8401B6495A190B52BDAD0518A36E8 /* Pods-LottieTutorialWatchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LottieTutorialWatchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DCFACFB0021463E3C66FFAAFBCCCBBE /* lottiekeypath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lottiekeypath.h; path = rlottie/src/lottie/lottiekeypath.h; sourceTree = "<group>"; };
+		5DF7AC4C1DE4C7632374E902A6C5E1DA /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
+		5F26CEE9A7AAA8668D3117C1A108F6E6 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
+		5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63F67B3443272165B6BAF8D31A4B9361 /* UIColor+SDHexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SDHexString.m"; path = "SDWebImage/Private/UIColor+SDHexString.m"; sourceTree = "<group>"; };
+		6486F603718DF9F1259C12DFF4DC3D1D /* vdrawhelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdrawhelper.h; path = rlottie/src/vector/vdrawhelper.h; sourceTree = "<group>"; };
+		649F7C2A9B3C25A478E7588971D666FC /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
+		65D2D299C0941C493DFF3E8574BB718D /* Pods-LottieTutorialWatchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LottieTutorialWatchOS-umbrella.h"; sourceTree = "<group>"; };
+		661C703F16AC262FD4ADB41FB70F4FFC /* librlottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = librlottie.framework; path = librlottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66ED5A1EF8D88E295B314561F37680F0 /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/Core/SDWebImageDefine.h; sourceTree = "<group>"; };
+		676C14FC5F2B79DE9993CB78C5379D75 /* vrect.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vrect.cpp; path = rlottie/src/vector/vrect.cpp; sourceTree = "<group>"; };
+		6842732DF2884F4B2C7B7E251654D643 /* vinterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vinterpolator.h; path = rlottie/src/vector/vinterpolator.h; sourceTree = "<group>"; };
+		684A8771BFCB697DF38B1168725B5FD7 /* SDAnimatedImagePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImagePlayer.m; path = SDWebImage/Core/SDAnimatedImagePlayer.m; sourceTree = "<group>"; };
+		6A07FAA8FCDCA248FCA30EBFB725CCB0 /* Pods-LottieTutorialWatchOS WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LottieTutorialWatchOS WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DA6DC136D878386B5D20A46C7B3EC48 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		6DAB2E7E88B61716B31D53F5B769141D /* Pods-LottieTutorialWatchOS WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LottieTutorialWatchOS WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		6E05F84A497D6E5F1EAE166EEB2D949C /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
+		6E65B54902805C9E72C498C1EECD076C /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/Core/SDImageLoadersManager.m; sourceTree = "<group>"; };
+		6F6ED968AD7D9AFA874F8682526C7D07 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		708FEFABC071A907C4767E3B6DF0EDD0 /* vtaskqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vtaskqueue.h; path = rlottie/src/vector/vtaskqueue.h; sourceTree = "<group>"; };
+		737020AA0C79202AA0EB45364352A82D /* v_ft_math.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = v_ft_math.cpp; path = rlottie/src/vector/freetype/v_ft_math.cpp; sourceTree = "<group>"; };
+		7549DF2CF03F5A731DEB4E78826F71EC /* SDImageLottieCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLottieCoder.h; path = SDWebImageLottieCoder/Classes/SDImageLottieCoder.h; sourceTree = "<group>"; };
+		75A5F93402F3DDA011AD40F184D7489A /* vdrawhelper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vdrawhelper.cpp; path = rlottie/src/vector/vdrawhelper.cpp; sourceTree = "<group>"; };
+		76EF831FE0E4F3E285E0036052ECB817 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
+		77532AB0FFCE434B0162F8098F56528B /* vpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vpoint.h; path = rlottie/src/vector/vpoint.h; sourceTree = "<group>"; };
+		78118CEDF975477F43F7AF126E94FDA6 /* Pods-LottieTutorialWatchOS WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LottieTutorialWatchOS WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		78D631DEB61ABDFC15E7488947AE60C4 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
+		78F251E2D72D6F9892733F592D651A6D /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		7A25236B1E815322555C8B7494CA0DA0 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/Core/UIImage+GIF.m"; sourceTree = "<group>"; };
+		7A7042C5B35D7F6E0137EBAB02D10C0E /* lottieloader.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottieloader.cpp; path = rlottie/src/lottie/lottieloader.cpp; sourceTree = "<group>"; };
+		7B004D3A0F683A619EE3CDB3576FC21E /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/Core/SDImageGIFCoder.m; sourceTree = "<group>"; };
+		7BC737F74510BC623AFECF54B9B7FCBD /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
+		7D234D7BBAC33C00AF13F6A62DCA956E /* SDWebImageLottieCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImageLottieCoder.debug.xcconfig; sourceTree = "<group>"; };
+		7D4508EC88F98C0B668FF81DCEA13071 /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
+		7DA0496F57D1E35B6A1FBF0C268AD080 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		7DFA5311899ECC5FC8AFE4B78ABA9032 /* vmatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vmatrix.cpp; path = rlottie/src/vector/vmatrix.cpp; sourceTree = "<group>"; };
+		7E558392F86E91154F8DA7911094FD7D /* Pods_LottieTutorialWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LottieTutorialWatchOS.framework; path = "Pods-LottieTutorialWatchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7D8EE3FDE942BA72AABAFC929B1248 /* vbezier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vbezier.cpp; path = rlottie/src/vector/vbezier.cpp; sourceTree = "<group>"; };
+		7F7F695AC82A7409C1011E53AE42CEBF /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
+		809BA5EC4EEBA427CA306B81A8FB448B /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
+		80EE0CFA34DAEA8DE9FEC8A60A60FB91 /* Pods-LottieTutorialWatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieTutorialWatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		8189099832284CDB11982A02AE8FFF48 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
+		8461ED264FC841839244B5527FDA7CB4 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
+		846D6D00B48FD760FB1DEEDE17835CD9 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/Core/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		84901AD23A85E861160CF93452B98741 /* vdrawable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vdrawable.cpp; path = rlottie/src/vector/vdrawable.cpp; sourceTree = "<group>"; };
+		870CCE0AA7F15316CE3ED45C7DF007D1 /* lottieanimation_capi.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottieanimation_capi.cpp; path = rlottie/src/binding/c/lottieanimation_capi.cpp; sourceTree = "<group>"; };
+		8822F8D765883DD3CBFBD3EB83B2F67A /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		88EAB4E0CE0F011F9729D82CA1B5D86F /* vpath.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vpath.cpp; path = rlottie/src/vector/vpath.cpp; sourceTree = "<group>"; };
+		8AAE46920E1C35FA5148BBA2837B4950 /* vdebug.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vdebug.cpp; path = rlottie/src/vector/vdebug.cpp; sourceTree = "<group>"; };
+		8ACF706B8BE8B25EFFB65419FAAD50D1 /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
+		8B5FDEB4C46958E11218DF282097FD33 /* vbrush.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vbrush.cpp; path = rlottie/src/vector/vbrush.cpp; sourceTree = "<group>"; };
+		8BDBC0932647596FA7349B06395DD93C /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/Core/SDImageCoder.m; sourceTree = "<group>"; };
+		8C1EBEDF944B5226148E45361610B370 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		8CE220C868B5DE275E3C6B2977869E5F /* SDWebImageLottieCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImageLottieCoder.release.xcconfig; sourceTree = "<group>"; };
+		8D0910C0D2C3EDD7DABA31DC8FC783CB /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LottieTutorialWatchOS_WatchKit_Extension.framework; path = "Pods-LottieTutorialWatchOS WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F43AAF1E1953F8C327792270381AAD2 /* SDImageHEICCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoderInternal.h; path = SDWebImage/Private/SDImageHEICCoderInternal.h; sourceTree = "<group>"; };
+		8F5B39EA8EEC27BCCF75BAD20F5981AB /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
+		90FFDA250914D974BB41887687B17B0B /* Pods-LottieTutorialWatchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieTutorialWatchOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		91E104BF5076EEA86D7C70EC72663B9A /* SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAssetManager.h; path = SDWebImage/Private/SDImageAssetManager.h; sourceTree = "<group>"; };
+		92221392BACECD15BFBFB8BE87B364C2 /* lottieparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lottieparser.h; path = rlottie/src/lottie/lottieparser.h; sourceTree = "<group>"; };
+		93FE5027FAEEC2552614006B9ACB23FC /* NSBezierPath+SDRoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+SDRoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.h"; sourceTree = "<group>"; };
+		9597E7AF8C37BFA067D46DC6B20EBC0E /* lottieitem_capi.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottieitem_capi.cpp; path = rlottie/src/lottie/lottieitem_capi.cpp; sourceTree = "<group>"; };
+		9671C41257DE681F460D5C479F42F792 /* vbrush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vbrush.h; path = rlottie/src/vector/vbrush.h; sourceTree = "<group>"; };
+		98860DF58E3B6CA7BB9447076E4F882B /* SDDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDisplayLink.m; path = SDWebImage/Private/SDDisplayLink.m; sourceTree = "<group>"; };
+		9906B64C5B0CE6903ECC39830998F810 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/Core/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		99B51AB8C4C17422C4349AFE2CC436FF /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/Core/UIView+WebCache.m"; sourceTree = "<group>"; };
+		99C8823C5636678EF15DD88905C38E96 /* v_ft_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = v_ft_types.h; path = rlottie/src/vector/freetype/v_ft_types.h; sourceTree = "<group>"; };
+		99DE4F4215F27E3EC265A40F783D4F92 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
+		9B2B75AC7326EE3BE7146DA74616855C /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/Core/SDImageCacheDefine.h; sourceTree = "<group>"; };
+		9BE55A54172EFAD2A1AEB3E09378FD2E /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
+		9C07682A9FCC2150E787C97827948F11 /* lottieloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lottieloader.h; path = rlottie/src/lottie/lottieloader.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCF74C332F9F57FB6FB3C20F06A804B /* vpathmesure.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vpathmesure.cpp; path = rlottie/src/vector/vpathmesure.cpp; sourceTree = "<group>"; };
+		9E8584DE7003561BE6C4AD21077DCC14 /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/Core/SDImageIOCoder.m; sourceTree = "<group>"; };
+		9E8D45FE19C65CF732D1CA043B7603D2 /* rlottiecommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rlottiecommon.h; path = rlottie/inc/rlottiecommon.h; sourceTree = "<group>"; };
+		9F1343FF292D48AEC825219D9C905D69 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
+		A0B2C624C2F2D426B23C74F51A3E8151 /* UIImage+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "SDWebImage/Core/UIImage+Transform.m"; sourceTree = "<group>"; };
+		A0F8008EA30BD19F412F970C951D3ABE /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
+		A18552D25A0E46762796B61B9D0B48B3 /* vbitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vbitmap.h; path = rlottie/src/vector/vbitmap.h; sourceTree = "<group>"; };
+		A222EEC94C97034BCD4FADC18EFE65A3 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		A2CE266B493CBDED224700191BC69C3B /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = generate/config.h; sourceTree = "<group>"; };
+		A318A7D676586CAF856FF7A58C4671C6 /* rlottie_capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rlottie_capi.h; path = rlottie/inc/rlottie_capi.h; sourceTree = "<group>"; };
+		A3A6D9351B934EE4F0B81D15C4DE82AB /* librlottie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "librlottie-prefix.pch"; sourceTree = "<group>"; };
+		A3F3ABCE9907FDDFDBAB534281EAB4E7 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
+		A494FB1CC60C08FF8547AD72CC49A81F /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
+		A7312973B6937E6781A05B992732C8A1 /* Pods-LottieTutorialWatchOS WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LottieTutorialWatchOS WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		A770CF582CA289CC1D59CEB90351B8E1 /* librlottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = librlottie.release.xcconfig; sourceTree = "<group>"; };
+		A7AC2D39714B452DA34C17A202C2E943 /* velapsedtimer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = velapsedtimer.cpp; path = rlottie/src/vector/velapsedtimer.cpp; sourceTree = "<group>"; };
+		A875E55C995EA3CE62996685681E5DF4 /* SDImageLottieCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLottieCoder.m; path = SDWebImageLottieCoder/Classes/SDImageLottieCoder.m; sourceTree = "<group>"; };
+		A9166287B3A0741173A9258D3E766BE0 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
+		A99797FA0990BF2D1BD75810F181EA41 /* varenaalloc.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = varenaalloc.cpp; path = rlottie/src/vector/varenaalloc.cpp; sourceTree = "<group>"; };
+		AA7855D5B14A4F3668BF2C223DCAE8EB /* vinterpolator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vinterpolator.cpp; path = rlottie/src/vector/vinterpolator.cpp; sourceTree = "<group>"; };
+		AAB5A70B60F9630D64425D0D4023808E /* SDImageAPNGCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAPNGCoder.m; path = SDWebImage/Core/SDImageAPNGCoder.m; sourceTree = "<group>"; };
+		AAF3B48C00501F1A0887CF1537EB5D2C /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
+		AB3EAB85FFB1EA435F5DC0C6E4A934FD /* SDWebImageDownloaderDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDecryptor.h; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.h; sourceTree = "<group>"; };
+		AC1F21EF13B93DAF9D34233E4595AE47 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
+		AD5DBB623F77C6115AC1D92969AC0FF5 /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
+		AD616C83CBE6FB8D3323D0882FDF50F9 /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
+		AE887F48B5F51D17928BC0F69E7A33C8 /* vimageloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vimageloader.h; path = rlottie/src/vector/vimageloader.h; sourceTree = "<group>"; };
+		AECA75CCC64171DD93717D2C2A49F1CA /* SDWebImageLottieCoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImageLottieCoder-umbrella.h"; sourceTree = "<group>"; };
+		B0588C97BF0A2A55CEE373235FEFE63F /* SDWebImageLottieCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImageLottieCoder.framework; path = SDWebImageLottieCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B125463E4E5A7B49DF272658EAD84FC7 /* Pods-LottieTutorialWatchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LottieTutorialWatchOS.modulemap"; sourceTree = "<group>"; };
+		B3211C1EC64EBEE7243B67943ED213A4 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		B518EB74D524F0FE0EEDEB80095405B5 /* v_ft_stroker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = v_ft_stroker.h; path = rlottie/src/vector/freetype/v_ft_stroker.h; sourceTree = "<group>"; };
+		B58B7FDF0B54272F080CF81F7EBE030D /* lottieparser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottieparser.cpp; path = rlottie/src/lottie/lottieparser.cpp; sourceTree = "<group>"; };
+		B5EC959643EE88EF0152D1FBAD802DC8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
+		B78D0F2F1DD5492A6878C8B5F09C6AD0 /* vbezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vbezier.h; path = rlottie/src/vector/vbezier.h; sourceTree = "<group>"; };
+		B7F73AEBDAB98749FF675BE5CD461FD3 /* Pods-LottieTutorialWatchOS WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieTutorialWatchOS WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		B888B6BDAA6E69FAFF52B85D49FF3673 /* SDAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAssociatedObject.h; path = SDWebImage/Private/SDAssociatedObject.h; sourceTree = "<group>"; };
+		B8B4D1170475764B10F417A114553D17 /* lottieproxymodel.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = lottieproxymodel.cpp; path = rlottie/src/lottie/lottieproxymodel.cpp; sourceTree = "<group>"; };
+		B95AED0C4480178DEA7B348CD1D32F27 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
+		B9F8680A95F1D3F6021A12F998E8EADF /* rlottie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rlottie.h; path = rlottie/inc/rlottie.h; sourceTree = "<group>"; };
+		BA5EC1A981DF7C0B45A7CC811AE1BAE9 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		BB623FB6E53F12AF45B573B0948DD7A8 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
+		BC1CF22F37CF379EE0962675BEB085DF /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		BCACC0D433907578660EACF083687D39 /* Pods-LottieTutorialWatchOS WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieTutorialWatchOS WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCCAC19A37CB30B149904295FF3B86F5 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LottieTutorialWatchOS_WatchKit_App.framework; path = "Pods-LottieTutorialWatchOS WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0E245316594C8D375FD2A07549A4AB /* vdasher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdasher.h; path = rlottie/src/vector/vdasher.h; sourceTree = "<group>"; };
+		BF5A38F5BE2FCBEF15384B425ABA093D /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
+		C01ECD610E442195D19FF3C82FDF2F12 /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
+		C053479A8474ABF784A56F25D0D95C13 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/Core/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		C4AA44CB37B75B3E4109C754A22D5A6C /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
+		C57D205201188C58AFC14177D2058CA0 /* SDWebImageCacheSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheSerializer.m; path = SDWebImage/Core/SDWebImageCacheSerializer.m; sourceTree = "<group>"; };
+		C7A834D52AF7463BB58FD02E71ACE7EB /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
+		C7AC47DA82968231CDA23DF8732DF2E8 /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
+		C86943E45703CF789FF1CE9A0D924977 /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/Core/SDImageIOCoder.h; sourceTree = "<group>"; };
+		CA87A67E647DFCD36CA78B38661A2EAB /* SDWebImageLottieLoaderDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageLottieLoaderDefine.h; path = SDWebImageLottieCoder/Classes/SDWebImageLottieLoaderDefine.h; sourceTree = "<group>"; };
+		CD04A089D44E8C75347DDAAF3BC75F4A /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
+		CFA6C9729020DDF57F5F0EA5A7494D02 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		D15C624495C58F5670D79079C13FB44E /* UIImage+ExtendedCacheData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ExtendedCacheData.h"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.h"; sourceTree = "<group>"; };
+		D1C82681E14B5FACC61A38FBE342FA0E /* Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		D2E77EFC4DADC8E96BFA9F9E58785D69 /* SDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDeviceHelper.m; path = SDWebImage/Private/SDDeviceHelper.m; sourceTree = "<group>"; };
+		D3AD84A9788E3C645D805443B0B10AD0 /* vbitmap.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vbitmap.cpp; path = rlottie/src/vector/vbitmap.cpp; sourceTree = "<group>"; };
+		D40112EA71B48FEF9DABC0C75EEE5F66 /* SDDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDisplayLink.h; path = SDWebImage/Private/SDDisplayLink.h; sourceTree = "<group>"; };
+		D4E985045A40596F9A25002D343B1CA4 /* SDFileAttributeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDFileAttributeHelper.m; path = SDWebImage/Private/SDFileAttributeHelper.m; sourceTree = "<group>"; };
+		D80291A9D4C9A84E923966C4EFC0CF35 /* librlottie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = librlottie.h; path = Xcode/librlottie.h; sourceTree = "<group>"; };
+		D83C0853C3C1D68D497661C9E14C670A /* vrect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vrect.h; path = rlottie/src/vector/vrect.h; sourceTree = "<group>"; };
+		D963C495750A09A5A8E24DB97618B791 /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
+		DFAA1CB02A7FA27AEAA8938E1B8D4BD3 /* Pods-LottieTutorialWatchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LottieTutorialWatchOS-dummy.m"; sourceTree = "<group>"; };
+		E00F619B9EBB5B5B66EE1CE72AFEB696 /* vcowptr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vcowptr.h; path = rlottie/src/vector/vcowptr.h; sourceTree = "<group>"; };
+		E0864122BD06AA3C57DA5EAC3C5E0FC2 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		E0C649E1596DAB9B8B8E0C99C6905FC1 /* Pods-LottieTutorialWatchOS WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LottieTutorialWatchOS WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3432E48E101931402C1C45AD4936E79 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
+		E35802A2CA77F7C3CF82ADB2E326891D /* librlottie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = librlottie.modulemap; sourceTree = "<group>"; };
+		E43E94B6DC807E26579F26FDC3094FE4 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
+		E532C93BAEA8FC76D9CB0D619A4CA030 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
+		E984A7E895FAF95FA47F92000A91FCF0 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
+		EA07510691BBE7838B6EB4DDC53AE4D5 /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
+		EA6FC481BD171A4FF044948C900DBE0B /* SDInternalMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDInternalMacros.m; path = SDWebImage/Private/SDInternalMacros.m; sourceTree = "<group>"; };
+		ED4692F4D7676493D73A4A690845613C /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
+		ED6DC8B2081089AD034FDB7244F676F2 /* SDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAssociatedObject.m; path = SDWebImage/Private/SDAssociatedObject.m; sourceTree = "<group>"; };
+		EECCFB6A97B80126FAE0686B7D59382E /* librlottie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "librlottie-dummy.m"; sourceTree = "<group>"; };
+		EF3266977D10B042A8EFF9576A18A08E /* vdebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdebug.h; path = rlottie/src/vector/vdebug.h; sourceTree = "<group>"; };
+		F181986AF9C68996841589AC701F2742 /* vrle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vrle.h; path = rlottie/src/vector/vrle.h; sourceTree = "<group>"; };
+		F1EAB62F497CA01D6336C52FB5635E8F /* vdrawable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdrawable.h; path = rlottie/src/vector/vdrawable.h; sourceTree = "<group>"; };
+		F2320A5E599BF08E4FBA3BB0ACC17D1F /* vimageloader.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vimageloader.cpp; path = rlottie/src/vector/vimageloader.cpp; sourceTree = "<group>"; };
+		F30F2FCE84E3FE02B35AC50A2D1FEC1D /* vcompositionfunctions.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = vcompositionfunctions.cpp; path = rlottie/src/vector/vcompositionfunctions.cpp; sourceTree = "<group>"; };
+		F34847124B07A5CAD06ADD8E435C8758 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
+		F408566756C84DB71D9E57FE3363AB2A /* v_ft_raster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = v_ft_raster.h; path = rlottie/src/vector/freetype/v_ft_raster.h; sourceTree = "<group>"; };
+		F601F3DB99586B292D77B23E9A5D8F5D /* vpathmesure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vpathmesure.h; path = rlottie/src/vector/vpathmesure.h; sourceTree = "<group>"; };
+		F68C9743F6F90B5DCDA09CA0B4B12D63 /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
+		F6A736EB7AFD026C42981FE6EB6E78DA /* v_ft_stroker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = v_ft_stroker.cpp; path = rlottie/src/vector/freetype/v_ft_stroker.cpp; sourceTree = "<group>"; };
+		F6C33F02BC58E78968DF0AA264606EFC /* SDWebImageLottieLoaderDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageLottieLoaderDefine.m; path = SDWebImageLottieCoder/Classes/SDWebImageLottieLoaderDefine.m; sourceTree = "<group>"; };
+		FA0A46B30F5CADB272627A0E919070A8 /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
+		FB0912873F481A657A44427E432FB013 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
+		FBCE07C7D6F52DF88BAE6DCBB80BE8BC /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/Core/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		FE36AFDFECB8BE47F4684AA77905F81D /* SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCodersManager.h; path = SDWebImage/Core/SDImageCodersManager.h; sourceTree = "<group>"; };
+		FE4FDD6ACFB9255DC52F59645EBD34D0 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
+		FEA781AF0EF15464EB0A318ECCAE2AE3 /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
+		FED773F7F80E5A592616A148C8699150 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0203CEB9BA53F13EE4E8F127E99B485A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961F648636755D94B6BC3E9BEF4BC5BD /* Foundation.framework in Frameworks */,
+				D81C6F330ADDA0DE7357A43CBCF1B5CB /* librlottie.framework in Frameworks */,
+				6F35A92AD07BC13FC19CA74A9E612AD3 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A21B71C436F40B6C5243EE1FC3908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACAE9157570178C352FC975D8AFA181 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530CCC8EEB4D769DAE00925C6066C044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D09FCC0BFB4509374721057EB0724A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E1803EFFB49B8B5D9BE9C3FF15E708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1CE94C4D35C33252EB4C299522857C /* Foundation.framework in Frameworks */,
+				89921B6B9281341C6B92CD705049B38B /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7114E68EFE281610E623A8833005C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E6D00AD88B4266C80A08F9369A4107 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F273F782416E4E641A5F515A3909AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855167FF76C2DBB0C560B39D3CA2D26F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138D14F3A910EF0A05B73E897154F6C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6828FC07F5EB1BE0EA44A2055ABCF17E /* Pods-LottieTutorialWatchOS */,
+				519399F6B3661E82DD4B888D6603643B /* Pods-LottieTutorialWatchOS WatchKit App */,
+				596484E864FBE60491603975E8AD06B1 /* Pods-LottieTutorialWatchOS WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		250E27B455709D59381BCA753E10A04D /* librlottie */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE266B493CBDED224700191BC69C3B /* config.h */,
+				D80291A9D4C9A84E923966C4EFC0CF35 /* librlottie.h */,
+				4E5939BFE0C768FD9E452D0317CA3E39 /* lottieanimation.cpp */,
+				870CCE0AA7F15316CE3ED45C7DF007D1 /* lottieanimation_capi.cpp */,
+				2EF40992CAB5CD2AC0F510A580F4C6E1 /* lottieitem.cpp */,
+				028B6C1B4F0AEBA3FCCB6115F15A6F82 /* lottieitem.h */,
+				9597E7AF8C37BFA067D46DC6B20EBC0E /* lottieitem_capi.cpp */,
+				023C13DEBDE4B35E5E85561E8519D1B8 /* lottiekeypath.cpp */,
+				5DCFACFB0021463E3C66FFAAFBCCCBBE /* lottiekeypath.h */,
+				7A7042C5B35D7F6E0137EBAB02D10C0E /* lottieloader.cpp */,
+				9C07682A9FCC2150E787C97827948F11 /* lottieloader.h */,
+				09CE1C1D16E9CF4448104377C93E9DD5 /* lottiemodel.cpp */,
+				2B345652794BA3DB17D38AB1B0F2902A /* lottiemodel.h */,
+				B58B7FDF0B54272F080CF81F7EBE030D /* lottieparser.cpp */,
+				92221392BACECD15BFBFB8BE87B364C2 /* lottieparser.h */,
+				B8B4D1170475764B10F417A114553D17 /* lottieproxymodel.cpp */,
+				382731AA127BFC903D6BE11220D0E7DC /* lottieproxymodel.h */,
+				B9F8680A95F1D3F6021A12F998E8EADF /* rlottie.h */,
+				A318A7D676586CAF856FF7A58C4671C6 /* rlottie_capi.h */,
+				9E8D45FE19C65CF732D1CA043B7603D2 /* rlottiecommon.h */,
+				1065CDB3D270931418CAA2933D6859D3 /* stb_image.cpp */,
+				3DE03AD6DC688848988CF3BDBEED9039 /* stb_image.h */,
+				737020AA0C79202AA0EB45364352A82D /* v_ft_math.cpp */,
+				4591E35B5D1032BE2348B1584DA642DF /* v_ft_math.h */,
+				2B3C4628D0FDAFFA9E49AE27847F9844 /* v_ft_raster.cpp */,
+				F408566756C84DB71D9E57FE3363AB2A /* v_ft_raster.h */,
+				F6A736EB7AFD026C42981FE6EB6E78DA /* v_ft_stroker.cpp */,
+				B518EB74D524F0FE0EEDEB80095405B5 /* v_ft_stroker.h */,
+				99C8823C5636678EF15DD88905C38E96 /* v_ft_types.h */,
+				A99797FA0990BF2D1BD75810F181EA41 /* varenaalloc.cpp */,
+				476B927E784AF62CCED8CA57E0CB71A5 /* varenaalloc.h */,
+				7E7D8EE3FDE942BA72AABAFC929B1248 /* vbezier.cpp */,
+				B78D0F2F1DD5492A6878C8B5F09C6AD0 /* vbezier.h */,
+				D3AD84A9788E3C645D805443B0B10AD0 /* vbitmap.cpp */,
+				A18552D25A0E46762796B61B9D0B48B3 /* vbitmap.h */,
+				8B5FDEB4C46958E11218DF282097FD33 /* vbrush.cpp */,
+				9671C41257DE681F460D5C479F42F792 /* vbrush.h */,
+				F30F2FCE84E3FE02B35AC50A2D1FEC1D /* vcompositionfunctions.cpp */,
+				E00F619B9EBB5B5B66EE1CE72AFEB696 /* vcowptr.h */,
+				26B84AFF45F2E9D75F6F29CFA6A2ADC9 /* vdasher.cpp */,
+				BD0E245316594C8D375FD2A07549A4AB /* vdasher.h */,
+				8AAE46920E1C35FA5148BBA2837B4950 /* vdebug.cpp */,
+				EF3266977D10B042A8EFF9576A18A08E /* vdebug.h */,
+				84901AD23A85E861160CF93452B98741 /* vdrawable.cpp */,
+				F1EAB62F497CA01D6336C52FB5635E8F /* vdrawable.h */,
+				75A5F93402F3DDA011AD40F184D7489A /* vdrawhelper.cpp */,
+				6486F603718DF9F1259C12DFF4DC3D1D /* vdrawhelper.h */,
+				3CC1A32FB386AE4DC90CDA2E392909A3 /* vdrawhelper_neon.cpp */,
+				4C76922EE29D061894001060C2C7E3F9 /* vdrawhelper_sse2.cpp */,
+				A7AC2D39714B452DA34C17A202C2E943 /* velapsedtimer.cpp */,
+				43DFDB0B80CFAF0CBA7DA6988620998D /* velapsedtimer.h */,
+				2B5C45C6866015EEFF4734C239B423EE /* vglobal.h */,
+				F2320A5E599BF08E4FBA3BB0ACC17D1F /* vimageloader.cpp */,
+				AE887F48B5F51D17928BC0F69E7A33C8 /* vimageloader.h */,
+				AA7855D5B14A4F3668BF2C223DCAE8EB /* vinterpolator.cpp */,
+				6842732DF2884F4B2C7B7E251654D643 /* vinterpolator.h */,
+				42D759D93165885E72EF624189548CFD /* vline.h */,
+				7DFA5311899ECC5FC8AFE4B78ABA9032 /* vmatrix.cpp */,
+				5B4D5E6C06BC8E0844D3ECD1FAF370E7 /* vmatrix.h */,
+				10D08CBE50834BF0C281F714A1FA4112 /* vpainter.cpp */,
+				0C5CA2D62C1C4045E52F063EA7AB8AE3 /* vpainter.h */,
+				88EAB4E0CE0F011F9729D82CA1B5D86F /* vpath.cpp */,
+				3C6F2329DDD4494479EED68C46C848E1 /* vpath.h */,
+				9DCF74C332F9F57FB6FB3C20F06A804B /* vpathmesure.cpp */,
+				F601F3DB99586B292D77B23E9A5D8F5D /* vpathmesure.h */,
+				77532AB0FFCE434B0162F8098F56528B /* vpoint.h */,
+				1AE808203A19F0F55D09734F6D00D953 /* vraster.cpp */,
+				5265B3E6FA6532E318C70DF90309B102 /* vraster.h */,
+				676C14FC5F2B79DE9993CB78C5379D75 /* vrect.cpp */,
+				D83C0853C3C1D68D497661C9E14C670A /* vrect.h */,
+				5901EEC319A028B4F4A32CBBA9A1EFB0 /* vrle.cpp */,
+				F181986AF9C68996841589AC701F2742 /* vrle.h */,
+				3EB6637B61A803B5A45CA49BBBB09930 /* vsharedptr.h */,
+				4EC225AA2410E716C22C42FFEEAAFDA2 /* vstackallocator.h */,
+				708FEFABC071A907C4767E3B6DF0EDD0 /* vtaskqueue.h */,
+				3A55344842C3565F8593DBBB5F676421 /* Support Files */,
+			);
+			name = librlottie;
+			path = librlottie;
+			sourceTree = "<group>";
+		};
+		3A55344842C3565F8593DBBB5F676421 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35802A2CA77F7C3CF82ADB2E326891D /* librlottie.modulemap */,
+				EECCFB6A97B80126FAE0686B7D59382E /* librlottie-dummy.m */,
+				3F163625A593D3BB29CBF46BE71729D0 /* librlottie-Info.plist */,
+				A3A6D9351B934EE4F0B81D15C4DE82AB /* librlottie-prefix.pch */,
+				0D8EE17A632209BD1C7F0BE21FE28A6A /* librlottie-umbrella.h */,
+				5B33B8DF532157D6FC098D0062771ACB /* librlottie.debug.xcconfig */,
+				A770CF582CA289CC1D59CEB90351B8E1 /* librlottie.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/librlottie";
+			sourceTree = "<group>";
+		};
+		3F1C26FDABEBC2E4E002F3B84E1C2CBA /* SDWebImageLottieCoder */ = {
+			isa = PBXGroup;
+			children = (
+				7549DF2CF03F5A731DEB4E78826F71EC /* SDImageLottieCoder.h */,
+				A875E55C995EA3CE62996685681E5DF4 /* SDImageLottieCoder.m */,
+				4CD558D36F1D7CA9300D412AC67B32C6 /* SDWebImageLottieCoder.h */,
+				CA87A67E647DFCD36CA78B38661A2EAB /* SDWebImageLottieLoaderDefine.h */,
+				F6C33F02BC58E78968DF0AA264606EFC /* SDWebImageLottieLoaderDefine.m */,
+				9AF3123596EDD82A911CE3135324A486 /* Support Files */,
+			);
+			name = SDWebImageLottieCoder;
+			path = SDWebImageLottieCoder;
+			sourceTree = "<group>";
+		};
+		519399F6B3661E82DD4B888D6603643B /* Pods-LottieTutorialWatchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				06AF15181E1DD5732B51CF9D2B916CC5 /* Pods-LottieTutorialWatchOS WatchKit App.modulemap */,
+				0B7E38DA9B6A30F165D1B91FEEB9C4D3 /* Pods-LottieTutorialWatchOS WatchKit App-acknowledgements.markdown */,
+				E0C649E1596DAB9B8B8E0C99C6905FC1 /* Pods-LottieTutorialWatchOS WatchKit App-acknowledgements.plist */,
+				532831D6B70B7ED5E77697A847374808 /* Pods-LottieTutorialWatchOS WatchKit App-dummy.m */,
+				B7F73AEBDAB98749FF675BE5CD461FD3 /* Pods-LottieTutorialWatchOS WatchKit App-Info.plist */,
+				A7312973B6937E6781A05B992732C8A1 /* Pods-LottieTutorialWatchOS WatchKit App-umbrella.h */,
+				18B9E04A2F133F651331831568A52AD0 /* Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig */,
+				D1C82681E14B5FACC61A38FBE342FA0E /* Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-LottieTutorialWatchOS WatchKit App";
+			path = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		553543C86F534C49ED639061F362EB2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8822F8D765883DD3CBFBD3EB83B2F67A /* SDWebImage.modulemap */,
+				31C97DFD6769F275A6BA424D7AF687E2 /* SDWebImage-dummy.m */,
+				EA07510691BBE7838B6EB4DDC53AE4D5 /* SDWebImage-Info.plist */,
+				1AFF689D9505A5787C62A83C14FAFDA1 /* SDWebImage-prefix.pch */,
+				A222EEC94C97034BCD4FADC18EFE65A3 /* SDWebImage-umbrella.h */,
+				ED4692F4D7676493D73A4A690845613C /* SDWebImage.debug.xcconfig */,
+				57D642AB62267F5A9BF1B0E0A355B39E /* SDWebImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		596484E864FBE60491603975E8AD06B1 /* Pods-LottieTutorialWatchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2115D203F6B6547808DB8C3914F26262 /* Pods-LottieTutorialWatchOS WatchKit Extension.modulemap */,
+				6A07FAA8FCDCA248FCA30EBFB725CCB0 /* Pods-LottieTutorialWatchOS WatchKit Extension-acknowledgements.markdown */,
+				BCACC0D433907578660EACF083687D39 /* Pods-LottieTutorialWatchOS WatchKit Extension-acknowledgements.plist */,
+				6DAB2E7E88B61716B31D53F5B769141D /* Pods-LottieTutorialWatchOS WatchKit Extension-dummy.m */,
+				2AFD654463BEBD72F9DFE368AA92F03F /* Pods-LottieTutorialWatchOS WatchKit Extension-frameworks.sh */,
+				088F892B9B2CC4DCF2E22FB471B32005 /* Pods-LottieTutorialWatchOS WatchKit Extension-Info.plist */,
+				78118CEDF975477F43F7AF126E94FDA6 /* Pods-LottieTutorialWatchOS WatchKit Extension-umbrella.h */,
+				0A69FDA8462A7C0D43548A08D02B099D /* Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig */,
+				140845CCAB2114C856192B4D96955302 /* Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-LottieTutorialWatchOS WatchKit Extension";
+			path = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5C439E3E6E28B0E342D820A231D43E22 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				645E9AB003DF689F4E118630C1BCED8D /* Core */,
+				553543C86F534C49ED639061F362EB2A /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		645E9AB003DF689F4E118630C1BCED8D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93FE5027FAEEC2552614006B9ACB23FC /* NSBezierPath+SDRoundedCorners.h */,
+				11AC98FEFC0CAA6006D36C3AACC22433 /* NSBezierPath+SDRoundedCorners.m */,
+				E3432E48E101931402C1C45AD4936E79 /* NSButton+WebCache.h */,
+				FB0912873F481A657A44427E432FB013 /* NSButton+WebCache.m */,
+				E0864122BD06AA3C57DA5EAC3C5E0FC2 /* NSData+ImageContentType.h */,
+				0F25EAB3C22864168BD1242EFE151A74 /* NSData+ImageContentType.m */,
+				E532C93BAEA8FC76D9CB0D619A4CA030 /* NSImage+Compatibility.h */,
+				002698A7C2E3D3EAFA1755BFA4A5F7EE /* NSImage+Compatibility.m */,
+				02A4E4FC27F771CBC2779EDEEEB474EC /* SDAnimatedImage.h */,
+				29F5B7849BCD090B7B04B3C43835A31B /* SDAnimatedImage.m */,
+				A9166287B3A0741173A9258D3E766BE0 /* SDAnimatedImagePlayer.h */,
+				684A8771BFCB697DF38B1168725B5FD7 /* SDAnimatedImagePlayer.m */,
+				6E05F84A497D6E5F1EAE166EEB2D949C /* SDAnimatedImageRep.h */,
+				12C25F165285EC99703028741580E1ED /* SDAnimatedImageRep.m */,
+				9F1343FF292D48AEC825219D9C905D69 /* SDAnimatedImageView.h */,
+				CD04A089D44E8C75347DDAAF3BC75F4A /* SDAnimatedImageView.m */,
+				5DF7AC4C1DE4C7632374E902A6C5E1DA /* SDAnimatedImageView+WebCache.h */,
+				01FB6CDE3B7F7F4932692F5419477AFC /* SDAnimatedImageView+WebCache.m */,
+				B888B6BDAA6E69FAFF52B85D49FF3673 /* SDAssociatedObject.h */,
+				ED6DC8B2081089AD034FDB7244F676F2 /* SDAssociatedObject.m */,
+				0CA99C92F289CE7656DBD050DF4E266A /* SDAsyncBlockOperation.h */,
+				5BA804A1F82AA7A6CE387C10BA78D846 /* SDAsyncBlockOperation.m */,
+				BF5A38F5BE2FCBEF15384B425ABA093D /* SDDeviceHelper.h */,
+				D2E77EFC4DADC8E96BFA9F9E58785D69 /* SDDeviceHelper.m */,
+				02FC5C85E51A23FA9CC6A33E7F94B167 /* SDDiskCache.h */,
+				008243BE2E1E82730CD812109DF2B197 /* SDDiskCache.m */,
+				D40112EA71B48FEF9DABC0C75EEE5F66 /* SDDisplayLink.h */,
+				98860DF58E3B6CA7BB9447076E4F882B /* SDDisplayLink.m */,
+				1A83423BD13799FC358BA39F4C62D685 /* SDFileAttributeHelper.h */,
+				D4E985045A40596F9A25002D343B1CA4 /* SDFileAttributeHelper.m */,
+				4013A10F290A11AB64ABA795F8741BD7 /* SDGraphicsImageRenderer.h */,
+				40966C3DAD6FB35F99A29B7B06A1F6D6 /* SDGraphicsImageRenderer.m */,
+				E984A7E895FAF95FA47F92000A91FCF0 /* SDImageAPNGCoder.h */,
+				AAB5A70B60F9630D64425D0D4023808E /* SDImageAPNGCoder.m */,
+				91E104BF5076EEA86D7C70EC72663B9A /* SDImageAssetManager.h */,
+				C4AA44CB37B75B3E4109C754A22D5A6C /* SDImageAssetManager.m */,
+				0CC425E864D31CF7712AA05C2EA46EF0 /* SDImageCache.h */,
+				A494FB1CC60C08FF8547AD72CC49A81F /* SDImageCache.m */,
+				B3211C1EC64EBEE7243B67943ED213A4 /* SDImageCacheConfig.h */,
+				BC1CF22F37CF379EE0962675BEB085DF /* SDImageCacheConfig.m */,
+				9B2B75AC7326EE3BE7146DA74616855C /* SDImageCacheDefine.h */,
+				0107B5CA0C255244EC4E9B7C851D3C77 /* SDImageCacheDefine.m */,
+				3DAF973974E68E2E35983ECE006782EE /* SDImageCachesManager.h */,
+				28C01C56C409BAEC3581C01FCA441343 /* SDImageCachesManager.m */,
+				42DF95D650BA5EE3174D12CFE6B5F30A /* SDImageCachesManagerOperation.h */,
+				7BC737F74510BC623AFECF54B9B7FCBD /* SDImageCachesManagerOperation.m */,
+				BB623FB6E53F12AF45B573B0948DD7A8 /* SDImageCoder.h */,
+				8BDBC0932647596FA7349B06395DD93C /* SDImageCoder.m */,
+				4CA38B294129D3C890E2FC9A29A9095F /* SDImageCoderHelper.h */,
+				D963C495750A09A5A8E24DB97618B791 /* SDImageCoderHelper.m */,
+				FE36AFDFECB8BE47F4684AA77905F81D /* SDImageCodersManager.h */,
+				8F5B39EA8EEC27BCCF75BAD20F5981AB /* SDImageCodersManager.m */,
+				FA0A46B30F5CADB272627A0E919070A8 /* SDImageFrame.h */,
+				99DE4F4215F27E3EC265A40F783D4F92 /* SDImageFrame.m */,
+				079B1F122C9F0CF3265290D24786830F /* SDImageGIFCoder.h */,
+				7B004D3A0F683A619EE3CDB3576FC21E /* SDImageGIFCoder.m */,
+				F34847124B07A5CAD06ADD8E435C8758 /* SDImageGraphics.h */,
+				9BE55A54172EFAD2A1AEB3E09378FD2E /* SDImageGraphics.m */,
+				4C2EA78186B27C08F8666C8F74EFB668 /* SDImageHEICCoder.h */,
+				F68C9743F6F90B5DCDA09CA0B4B12D63 /* SDImageHEICCoder.m */,
+				8F43AAF1E1953F8C327792270381AAD2 /* SDImageHEICCoderInternal.h */,
+				A0F8008EA30BD19F412F970C951D3ABE /* SDImageIOAnimatedCoder.h */,
+				7D4508EC88F98C0B668FF81DCEA13071 /* SDImageIOAnimatedCoder.m */,
+				0286E9054BEBBB21B2770B34809A1C52 /* SDImageIOAnimatedCoderInternal.h */,
+				C86943E45703CF789FF1CE9A0D924977 /* SDImageIOCoder.h */,
+				9E8584DE7003561BE6C4AD21077DCC14 /* SDImageIOCoder.m */,
+				AD616C83CBE6FB8D3323D0882FDF50F9 /* SDImageLoader.h */,
+				76EF831FE0E4F3E285E0036052ECB817 /* SDImageLoader.m */,
+				0F3D9FE88788ED85D52CD1BCC215C0DC /* SDImageLoadersManager.h */,
+				6E65B54902805C9E72C498C1EECD076C /* SDImageLoadersManager.m */,
+				56E920BF4B583F2A39E3D617A368EEF0 /* SDImageTransformer.h */,
+				8189099832284CDB11982A02AE8FFF48 /* SDImageTransformer.m */,
+				AD5DBB623F77C6115AC1D92969AC0FF5 /* SDInternalMacros.h */,
+				EA6FC481BD171A4FF044948C900DBE0B /* SDInternalMacros.m */,
+				1090FF924C932854F266678A93D7C71F /* SDMemoryCache.h */,
+				489AC201904828E5F52C8F83EF7D9B56 /* SDMemoryCache.m */,
+				FE4FDD6ACFB9255DC52F59645EBD34D0 /* SDmetamacros.h */,
+				0F3C11DB874AC10955DFE25043947103 /* SDWeakProxy.h */,
+				4E1A9E342D53EAC264DFDD3811FEE3B0 /* SDWeakProxy.m */,
+				4407FBD45CB032ADCB92DFF14979A4AA /* SDWebImage.h */,
+				FEA781AF0EF15464EB0A318ECCAE2AE3 /* SDWebImageCacheKeyFilter.h */,
+				649F7C2A9B3C25A478E7588971D666FC /* SDWebImageCacheKeyFilter.m */,
+				AAF3B48C00501F1A0887CF1537EB5D2C /* SDWebImageCacheSerializer.h */,
+				C57D205201188C58AFC14177D2058CA0 /* SDWebImageCacheSerializer.m */,
+				5F26CEE9A7AAA8668D3117C1A108F6E6 /* SDWebImageCompat.h */,
+				B5EC959643EE88EF0152D1FBAD802DC8 /* SDWebImageCompat.m */,
+				66ED5A1EF8D88E295B314561F37680F0 /* SDWebImageDefine.h */,
+				809BA5EC4EEBA427CA306B81A8FB448B /* SDWebImageDefine.m */,
+				2A474C9BBD1B6DDD63578FF8E3D5C197 /* SDWebImageDownloader.h */,
+				0427E7EB63D9D72A86DE579F01822DD3 /* SDWebImageDownloader.m */,
+				1AED0B1D006208DECA468BF2F1192017 /* SDWebImageDownloaderConfig.h */,
+				1D645C999A265F960E9BB4B3F4303687 /* SDWebImageDownloaderConfig.m */,
+				AB3EAB85FFB1EA435F5DC0C6E4A934FD /* SDWebImageDownloaderDecryptor.h */,
+				3CD22E1B39C154365C4F7C32EBB9FAB9 /* SDWebImageDownloaderDecryptor.m */,
+				FBCE07C7D6F52DF88BAE6DCBB80BE8BC /* SDWebImageDownloaderOperation.h */,
+				24E07A5E3F4B02314E7F1B794CD31AF6 /* SDWebImageDownloaderOperation.m */,
+				C01ECD610E442195D19FF3C82FDF2F12 /* SDWebImageDownloaderRequestModifier.h */,
+				496ADD60DD440803C7917BAC16A5B8E1 /* SDWebImageDownloaderRequestModifier.m */,
+				45800E5D3579C5C28CEA4B3DB6FB003B /* SDWebImageDownloaderResponseModifier.h */,
+				7F7F695AC82A7409C1011E53AE42CEBF /* SDWebImageDownloaderResponseModifier.m */,
+				06C980551962513CEF23DB304DB7AF8B /* SDWebImageError.h */,
+				48308A04CADCA0B909B4D39D90BAE801 /* SDWebImageError.m */,
+				C7A834D52AF7463BB58FD02E71ACE7EB /* SDWebImageIndicator.h */,
+				0AAF310C48292642E64DAF57DD8A5838 /* SDWebImageIndicator.m */,
+				B95AED0C4480178DEA7B348CD1D32F27 /* SDWebImageManager.h */,
+				39429B8A52E056E4BD61596C13999E82 /* SDWebImageManager.m */,
+				8461ED264FC841839244B5527FDA7CB4 /* SDWebImageOperation.h */,
+				081907849EBED0B3126E0DC9D61522E8 /* SDWebImageOperation.m */,
+				E43E94B6DC807E26579F26FDC3094FE4 /* SDWebImageOptionsProcessor.h */,
+				8ACF706B8BE8B25EFFB65419FAAD50D1 /* SDWebImageOptionsProcessor.m */,
+				04E4510E5BC9495DE24C639FD1B5AA32 /* SDWebImagePrefetcher.h */,
+				C053479A8474ABF784A56F25D0D95C13 /* SDWebImagePrefetcher.m */,
+				0EBFCCFEDE4456CE89CDFE83E1E4917C /* SDWebImageTransition.h */,
+				32BD695D1F1D35F26C8DACD8687D109E /* SDWebImageTransition.m */,
+				3A44D9461AD3B8D7238AF889A16A5968 /* SDWebImageTransitionInternal.h */,
+				408E14E7FAD90B857E71F4E4661F1831 /* UIButton+WebCache.h */,
+				274C226C3A903C3D7AC60CF96468616C /* UIButton+WebCache.m */,
+				3000240B94227B53E603838FE4B0A320 /* UIColor+SDHexString.h */,
+				63F67B3443272165B6BAF8D31A4B9361 /* UIColor+SDHexString.m */,
+				D15C624495C58F5670D79079C13FB44E /* UIImage+ExtendedCacheData.h */,
+				09A1506CEC63F50E565EAC012B40FAE1 /* UIImage+ExtendedCacheData.m */,
+				1B07C645BA6B88E073FF1D924F4C9CB6 /* UIImage+ForceDecode.h */,
+				3B53160652E010BFC60AAE7B08C6D3A8 /* UIImage+ForceDecode.m */,
+				FED773F7F80E5A592616A148C8699150 /* UIImage+GIF.h */,
+				7A25236B1E815322555C8B7494CA0DA0 /* UIImage+GIF.m */,
+				78D631DEB61ABDFC15E7488947AE60C4 /* UIImage+MemoryCacheCost.h */,
+				0F177CB7AE2F7F39E74C572322C3F67E /* UIImage+MemoryCacheCost.m */,
+				C7AC47DA82968231CDA23DF8732DF2E8 /* UIImage+Metadata.h */,
+				38C83DF92F977A40DC9D62F26F6663EA /* UIImage+Metadata.m */,
+				9906B64C5B0CE6903ECC39830998F810 /* UIImage+MultiFormat.h */,
+				6DA6DC136D878386B5D20A46C7B3EC48 /* UIImage+MultiFormat.m */,
+				AC1F21EF13B93DAF9D34233E4595AE47 /* UIImage+Transform.h */,
+				A0B2C624C2F2D426B23C74F51A3E8151 /* UIImage+Transform.m */,
+				BA5EC1A981DF7C0B45A7CC811AE1BAE9 /* UIImageView+HighlightedWebCache.h */,
+				CFA6C9729020DDF57F5F0EA5A7494D02 /* UIImageView+HighlightedWebCache.m */,
+				846D6D00B48FD760FB1DEEDE17835CD9 /* UIImageView+WebCache.h */,
+				6F6ED968AD7D9AFA874F8682526C7D07 /* UIImageView+WebCache.m */,
+				A3F3ABCE9907FDDFDBAB534281EAB4E7 /* UIView+WebCache.h */,
+				99B51AB8C4C17422C4349AFE2CC436FF /* UIView+WebCache.m */,
+				7DA0496F57D1E35B6A1FBF0C268AD080 /* UIView+WebCacheOperation.h */,
+				78F251E2D72D6F9892733F592D651A6D /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6828FC07F5EB1BE0EA44A2055ABCF17E /* Pods-LottieTutorialWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				B125463E4E5A7B49DF272658EAD84FC7 /* Pods-LottieTutorialWatchOS.modulemap */,
+				5BB8401B6495A190B52BDAD0518A36E8 /* Pods-LottieTutorialWatchOS-acknowledgements.markdown */,
+				90FFDA250914D974BB41887687B17B0B /* Pods-LottieTutorialWatchOS-acknowledgements.plist */,
+				DFAA1CB02A7FA27AEAA8938E1B8D4BD3 /* Pods-LottieTutorialWatchOS-dummy.m */,
+				4E81D0AD97103E9B700A8875F4D5F73C /* Pods-LottieTutorialWatchOS-Info.plist */,
+				65D2D299C0941C493DFF3E8574BB718D /* Pods-LottieTutorialWatchOS-umbrella.h */,
+				13BAA769B95867A441D5A0490162EB29 /* Pods-LottieTutorialWatchOS.debug.xcconfig */,
+				80EE0CFA34DAEA8DE9FEC8A60A60FB91 /* Pods-LottieTutorialWatchOS.release.xcconfig */,
+			);
+			name = "Pods-LottieTutorialWatchOS";
+			path = "Target Support Files/Pods-LottieTutorialWatchOS";
+			sourceTree = "<group>";
+		};
+		9114053F2EE3F09749D9630FC106636D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35EC87D63DCF5088A8810FF23513F363 /* librlottie.framework */,
+				1F73C3A12BFE698FED837289AF847429 /* SDWebImage.framework */,
+				A83944C5B6BBFB192C25726D10BC4552 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AF3123596EDD82A911CE3135324A486 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4337D75E6B0628F1FE059228B45716F4 /* SDWebImageLottieCoder.modulemap */,
+				02847152035302D2FD3F3B3F313FC42A /* SDWebImageLottieCoder-dummy.m */,
+				1B302C354FD0B75A344507DBC4440ECA /* SDWebImageLottieCoder-Info.plist */,
+				3EED4E63C16ACE1BC5B250C5A2AF9274 /* SDWebImageLottieCoder-prefix.pch */,
+				AECA75CCC64171DD93717D2C2A49F1CA /* SDWebImageLottieCoder-umbrella.h */,
+				7D234D7BBAC33C00AF13F6A62DCA956E /* SDWebImageLottieCoder.debug.xcconfig */,
+				8CE220C868B5DE275E3C6B2977869E5F /* SDWebImageLottieCoder.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImageLottieCoder";
+			sourceTree = "<group>";
+		};
+		A6CF0AF5C1C66ACBD044F9D0CE057F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661C703F16AC262FD4ADB41FB70F4FFC /* librlottie.framework */,
+				7E558392F86E91154F8DA7911094FD7D /* Pods_LottieTutorialWatchOS.framework */,
+				BCCAC19A37CB30B149904295FF3B86F5 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework */,
+				8D0910C0D2C3EDD7DABA31DC8FC783CB /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
+				B0588C97BF0A2A55CEE373235FEFE63F /* SDWebImageLottieCoder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83944C5B6BBFB192C25726D10BC4552 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F60AA4C32CE2B63D9940CBBBE8CEB7F /* Foundation.framework */,
+				8C1EBEDF944B5226148E45361610B370 /* ImageIO.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		CBD78DABF8079271A12EEAAAF8D651F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				250E27B455709D59381BCA753E10A04D /* librlottie */,
+				5C439E3E6E28B0E342D820A231D43E22 /* SDWebImage */,
+				3F1C26FDABEBC2E4E002F3B84E1C2CBA /* SDWebImageLottieCoder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9114053F2EE3F09749D9630FC106636D /* Frameworks */,
+				CBD78DABF8079271A12EEAAAF8D651F4 /* Pods */,
+				A6CF0AF5C1C66ACBD044F9D0CE057F16 /* Products */,
+				138D14F3A910EF0A05B73E897154F6C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B6C7E9033C22AAFE6FCF36AA695B0FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C6EB2AB621F3818CC4EB5DBB0D0DE1 /* Pods-LottieTutorialWatchOS WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E2C6F9842882340C486E46DC98C7D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E06D4ECA9FF501B539EBAEE3DC05356 /* config.h in Headers */,
+				A8BD819AA781FC0BAEBE938B5134E2B5 /* librlottie-umbrella.h in Headers */,
+				7C98864A9ED544D3A91D2BFA42D942B9 /* librlottie.h in Headers */,
+				FE08DAD12BBDC50036128E3CAE6FBD2F /* lottieitem.h in Headers */,
+				0346ABCF713C4209807CA0A5770ED73C /* lottiekeypath.h in Headers */,
+				59492AB66490947F91EA15A8D7C6FDAC /* lottieloader.h in Headers */,
+				94976FD44B34409D228C8CA6CECD1B6F /* lottiemodel.h in Headers */,
+				FEE4ED9ED5B566323F3C38039E43DF36 /* lottieparser.h in Headers */,
+				0B8451709193CD282E2A497B50E9ACB2 /* lottieproxymodel.h in Headers */,
+				7E12353068AF9C56E5DF4E45FC40E6C5 /* rlottie.h in Headers */,
+				05BD4A43D88355548F64332A33C61BBA /* rlottie_capi.h in Headers */,
+				8FF765E92AD7103E98A3015AF7DC06B6 /* rlottiecommon.h in Headers */,
+				71F2F3F1926D36D0FF240F49E556A7F5 /* stb_image.h in Headers */,
+				9BF0D94ACCA22A0AF8FEB39DAEC90D9E /* v_ft_math.h in Headers */,
+				C571B45A1AA104D12EEC5676685C1889 /* v_ft_raster.h in Headers */,
+				9CD8D67A8A4D38832D6E1F2FB8980FC5 /* v_ft_stroker.h in Headers */,
+				B05FFB6083465142F6276AA0CEE33788 /* v_ft_types.h in Headers */,
+				9413B1190B624C893FA9BAE8457B6445 /* varenaalloc.h in Headers */,
+				00DD94B797E0733FD9B1DCA14748A05F /* vbezier.h in Headers */,
+				F14F1DDF5B75048141C8302B24D4718A /* vbitmap.h in Headers */,
+				A8A6C77B758EDCE853712C5A95F49D7C /* vbrush.h in Headers */,
+				F2005FAA20369D8319480650BEDF472D /* vcowptr.h in Headers */,
+				51D599F53FDA2EABE3FAD81B6BAA2B2A /* vdasher.h in Headers */,
+				6697E5089758D9C3F6A8287220D428EE /* vdebug.h in Headers */,
+				3460AEA2A172AE2AA51AD87188D42C7F /* vdrawable.h in Headers */,
+				8A6A585B19A62D6B4F6E3AA87F021AE9 /* vdrawhelper.h in Headers */,
+				E4D1777DFE70BB6664899D7E638B68AE /* velapsedtimer.h in Headers */,
+				C5D745FB9C67A1D9D71429B56587571D /* vglobal.h in Headers */,
+				5B1031A12A970A0D5C89932E791680F8 /* vimageloader.h in Headers */,
+				6F8C78ADA985735D90183560807E449D /* vinterpolator.h in Headers */,
+				0A17278690DD798090616AEF7EC7493D /* vline.h in Headers */,
+				C0FF62748CDE31A8524AE67070E8537F /* vmatrix.h in Headers */,
+				C53D2FC6DF3D2050702B524B2FB17E45 /* vpainter.h in Headers */,
+				CDE25ED9DF0A78462C592C70C223C111 /* vpath.h in Headers */,
+				6FF4B3C1E19E142901D1A1BA305D53B0 /* vpathmesure.h in Headers */,
+				54C04975C9DF43BB9A23E7ECB7B5B3B1 /* vpoint.h in Headers */,
+				34DDE0FB53895EBE36A0C459B2497C03 /* vraster.h in Headers */,
+				3C43195A9A6DCEA90CA473A5716067BB /* vrect.h in Headers */,
+				3D7417DD7E2ABEA1628A32BB29CBDF31 /* vrle.h in Headers */,
+				0B89BAD3FF4A144839C582318968EF9B /* vsharedptr.h in Headers */,
+				117C0748D40FF78FF98C41493CA8A30F /* vstackallocator.h in Headers */,
+				379633846F8A721501A4C8FBA66B90CB /* vtaskqueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433FB1166E334D51ED66D821AC0269AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115D1A205322C514BD68106E576B7196 /* Pods-LottieTutorialWatchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F86644D3DD166D4DAE3C9CBCCCD1156 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E79F203E44BE592EB91DC64BFC94A41 /* Pods-LottieTutorialWatchOS WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71B7A3CCC5B5334E2E2155A9E4FD21A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50404BB653C8DD0F6CCE2CB33CA6D34A /* SDImageLottieCoder.h in Headers */,
+				71B71A99AC058D1C7D9BF5E3F35F2AB2 /* SDWebImageLottieCoder-umbrella.h in Headers */,
+				95F5728479498C4E8781674F532A8DA7 /* SDWebImageLottieCoder.h in Headers */,
+				EAF7185C2BB8C87A04BB2BFEF6459683 /* SDWebImageLottieLoaderDefine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6048343884143F7919689F2F9BEEA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0725567B7BD18C79A04E5EC9C72249D /* NSBezierPath+SDRoundedCorners.h in Headers */,
+				449AF3A1E1DEFBD47B2411DAD0E5D6CC /* NSButton+WebCache.h in Headers */,
+				EB634403E13B36687931F62769C04F66 /* NSData+ImageContentType.h in Headers */,
+				9C6F61B6DD8964A03128BB996BCCCDF5 /* NSImage+Compatibility.h in Headers */,
+				1201437E196032353D4D2B2DF8206775 /* SDAnimatedImage.h in Headers */,
+				9B0ADFBD0EE010BC1AE32B290FAF2D70 /* SDAnimatedImagePlayer.h in Headers */,
+				86A92CFC75F685F5805824C81ED34DD9 /* SDAnimatedImageRep.h in Headers */,
+				6F14B66A0031F8CD2DBD49D05F285A5A /* SDAnimatedImageView+WebCache.h in Headers */,
+				40DD3721BA61598A56ECF57BB1C45EE8 /* SDAnimatedImageView.h in Headers */,
+				85B91AFDF4CF2F4FB54D35AE96CB02DE /* SDAssociatedObject.h in Headers */,
+				7C9BCCE2BE2AB0F74617E9638E8383E2 /* SDAsyncBlockOperation.h in Headers */,
+				09EB95CBDF8D54EB05C26A5196EBBB65 /* SDDeviceHelper.h in Headers */,
+				DE311CA167D40330E2B71F4726A6B789 /* SDDiskCache.h in Headers */,
+				1367682CED02F22D43F248A0E36CC17B /* SDDisplayLink.h in Headers */,
+				69FC796803AADF6F7D78E034F759E07A /* SDFileAttributeHelper.h in Headers */,
+				5BCB8102AFF58BDD96E0C059F9B88BB5 /* SDGraphicsImageRenderer.h in Headers */,
+				C88E97ED465D3973A3D9FD7AE94BDB9A /* SDImageAPNGCoder.h in Headers */,
+				8860B7C942F4FDAC599E545DEC6E0446 /* SDImageAssetManager.h in Headers */,
+				9140B89832569466DC295558951FF9A4 /* SDImageCache.h in Headers */,
+				0CD7B135FD4B84BDB1FB8727A2F85550 /* SDImageCacheConfig.h in Headers */,
+				A26011648EA7CD910788DBBF08C36F32 /* SDImageCacheDefine.h in Headers */,
+				E9B97B2FD84DF4015AABD7E5978A710F /* SDImageCachesManager.h in Headers */,
+				78A8F86E5996E580294B65E304C65F6A /* SDImageCachesManagerOperation.h in Headers */,
+				8BE030582BFA5590BC7A1EB1A7E8DDC4 /* SDImageCoder.h in Headers */,
+				285BB197A61A0553905D872B6E4F6BA1 /* SDImageCoderHelper.h in Headers */,
+				47CFA5C583D7B3BFD0FBAD1F1A474913 /* SDImageCodersManager.h in Headers */,
+				5C5058FC446A9C6C4F3FA70C2121A267 /* SDImageFrame.h in Headers */,
+				12A76A691E704E6EBE12CC888639C31A /* SDImageGIFCoder.h in Headers */,
+				7829F86094FA530717C4AF09DFA1FCB7 /* SDImageGraphics.h in Headers */,
+				4F227430C16CAB3FF65A1488229BF46A /* SDImageHEICCoder.h in Headers */,
+				D347FCF56E468483A546E1F611DE081C /* SDImageHEICCoderInternal.h in Headers */,
+				79140F3DB1DFA9969EF7EA809862461B /* SDImageIOAnimatedCoder.h in Headers */,
+				EA50654643EF702D7F2DD17534459EAB /* SDImageIOAnimatedCoderInternal.h in Headers */,
+				D6FDFE95CEDBD0A41D4E16FDB1599FA9 /* SDImageIOCoder.h in Headers */,
+				104CBAC9F34C7B8475A096C4B0ACA3A0 /* SDImageLoader.h in Headers */,
+				858BA6CE212BDE681F7B8EC99CDEA5A2 /* SDImageLoadersManager.h in Headers */,
+				949BA4CC204D826571EA4E85BA769DB7 /* SDImageTransformer.h in Headers */,
+				561EAFCC4AA4A4FFA55319ACF371D31C /* SDInternalMacros.h in Headers */,
+				FC4DE0456F37E3F47195E5F969314E0F /* SDMemoryCache.h in Headers */,
+				183F84DC6D79A0F93AE6C13F2EDDDCD8 /* SDmetamacros.h in Headers */,
+				5E96F449788433CD16C308CA4C4974AB /* SDWeakProxy.h in Headers */,
+				1A04C35F3E2D85CFCAFC9934EAC8E033 /* SDWebImage-umbrella.h in Headers */,
+				64F3EB426774D6F1D593DBFAFFBF6791 /* SDWebImage.h in Headers */,
+				FEF33326D4B5B59DFD0CA1DFAD4001FC /* SDWebImageCacheKeyFilter.h in Headers */,
+				DFE7857272AA4CDEC686248E790174F9 /* SDWebImageCacheSerializer.h in Headers */,
+				010A21434427A1E7CE25060BA3A66A61 /* SDWebImageCompat.h in Headers */,
+				CBA469E2DD8702DECB634A81F850C516 /* SDWebImageDefine.h in Headers */,
+				9C39FA3EB2A9462B249432F655FC9AA8 /* SDWebImageDownloader.h in Headers */,
+				A3A38FFF99F8F65D21F6526D4D257230 /* SDWebImageDownloaderConfig.h in Headers */,
+				C854CD2F89E00E88FB1D6669A770DEE0 /* SDWebImageDownloaderDecryptor.h in Headers */,
+				CF1AA8850ED16C5F49B61BC3A9B13DD7 /* SDWebImageDownloaderOperation.h in Headers */,
+				6B8E9A4250E31C61FFB2FA44B1ED587D /* SDWebImageDownloaderRequestModifier.h in Headers */,
+				02A4C8ABD5DCC501DE7A6CE19B398E14 /* SDWebImageDownloaderResponseModifier.h in Headers */,
+				95D70798AF08A9AF6AC0455ABAC50B31 /* SDWebImageError.h in Headers */,
+				B6A52B7697F15B487F846F3DA1CB3896 /* SDWebImageIndicator.h in Headers */,
+				FC5E54109CC0090D7CA4492C6225E5BB /* SDWebImageManager.h in Headers */,
+				CD06DC5FCA424D8A0928068BEB8AF2E5 /* SDWebImageOperation.h in Headers */,
+				DA1F5EB06521252BF63369AFEF914368 /* SDWebImageOptionsProcessor.h in Headers */,
+				B52576B08EFC9D67F218CC2DAC542AF4 /* SDWebImagePrefetcher.h in Headers */,
+				02B6598C52131C10E3CA344FB49B87FA /* SDWebImageTransition.h in Headers */,
+				71C055BCF544D98F47CCFB404A9157A0 /* SDWebImageTransitionInternal.h in Headers */,
+				7320BE37CC5564C9200656A346D16D7C /* UIButton+WebCache.h in Headers */,
+				41E823881385B837FA086E301CBBB87C /* UIColor+SDHexString.h in Headers */,
+				758D45C8E630A9B2A29746AFAB257929 /* UIImage+ExtendedCacheData.h in Headers */,
+				56D4C3BEBAF6D7B57123C4A919EDFC4D /* UIImage+ForceDecode.h in Headers */,
+				A1B62D4B373543D743AC938090EF65F2 /* UIImage+GIF.h in Headers */,
+				7BDCFF16AD5094651DDF91E007A194A1 /* UIImage+MemoryCacheCost.h in Headers */,
+				CCEF1E548BE78064BE12CC29D9977A28 /* UIImage+Metadata.h in Headers */,
+				7CB9508A6133F4674F3358339F62CF03 /* UIImage+MultiFormat.h in Headers */,
+				DCDC5264F294AB9A622D368F2F7FA336 /* UIImage+Transform.h in Headers */,
+				42BB3098DC0E47748C6AD61A10575859 /* UIImageView+HighlightedWebCache.h in Headers */,
+				9212629910630E2F8888272B38EA81E4 /* UIImageView+WebCache.h in Headers */,
+				033813F58E3D20FA511AF1B5C3D58FA7 /* UIView+WebCache.h in Headers */,
+				21C120EDFCE3F1B685833EAE2F088998 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B67F29E6AF8341F134953EF8B49FD63 /* Pods-LottieTutorialWatchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A402E0716DEC38CE57D7EE59CE9EF8DD /* Build configuration list for PBXNativeTarget "Pods-LottieTutorialWatchOS WatchKit Extension" */;
+			buildPhases = (
+				6F86644D3DD166D4DAE3C9CBCCCD1156 /* Headers */,
+				267538BB0CA2E4E3188BBA8D515C23B0 /* Sources */,
+				076A21B71C436F40B6C5243EE1FC3908 /* Frameworks */,
+				CF59977D61137A6B5C602D8F3FACD65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0C66B9A260CAC5F39C20D1EC5465B4 /* PBXTargetDependency */,
+				D2AD3C3761AEA6B49ACDC5189C950B18 /* PBXTargetDependency */,
+				5EA81ABF70B00638661B64CBBCFF20AD /* PBXTargetDependency */,
+			);
+			name = "Pods-LottieTutorialWatchOS WatchKit Extension";
+			productName = "Pods-LottieTutorialWatchOS WatchKit Extension";
+			productReference = 8D0910C0D2C3EDD7DABA31DC8FC783CB /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3847153A6E5EEFB86565BA840768F429 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6F755EB18559BA16F3A7501A53F36A /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				CB6048343884143F7919689F2F9BEEA2 /* Headers */,
+				2EF2C3C6952568E0857636A98376D1AF /* Sources */,
+				93E1803EFFB49B8B5D9BE9C3FF15E708 /* Frameworks */,
+				D6D70F7565EE0DD3BC12CD0BB42B01A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4A5040D928E2ABF253073541F69F27C /* Pods-LottieTutorialWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3EC63F24D7DD06D6847CC4DD7E15B2 /* Build configuration list for PBXNativeTarget "Pods-LottieTutorialWatchOS" */;
+			buildPhases = (
+				433FB1166E334D51ED66D821AC0269AE /* Headers */,
+				3B468E1EAD035B26052F93E21FBDAC5D /* Sources */,
+				530CCC8EEB4D769DAE00925C6066C044 /* Frameworks */,
+				A5AAF7A13C4C748F5AFB13A7F5C2910B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LottieTutorialWatchOS";
+			productName = "Pods-LottieTutorialWatchOS";
+			productReference = 7E558392F86E91154F8DA7911094FD7D /* Pods_LottieTutorialWatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CABAD27FBBB74C56660AA2577984C3B0 /* librlottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615F28DB6F0373379508E04ED03CF2B1 /* Build configuration list for PBXNativeTarget "librlottie" */;
+			buildPhases = (
+				19E2C6F9842882340C486E46DC98C7D0 /* Headers */,
+				7B20A797E7FD63AEB4A26A5593DF9E8A /* Sources */,
+				C7114E68EFE281610E623A8833005C33 /* Frameworks */,
+				D030BE14FBA51D37CE211ACF143BF364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = librlottie;
+			productName = librlottie;
+			productReference = 661C703F16AC262FD4ADB41FB70F4FFC /* librlottie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D47088BC4D04E2CC703942B7135B6CDC /* SDWebImageLottieCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A792E46F280765338A40BF5E64E3B3 /* Build configuration list for PBXNativeTarget "SDWebImageLottieCoder" */;
+			buildPhases = (
+				C71B7A3CCC5B5334E2E2155A9E4FD21A /* Headers */,
+				FD80349DBC6885CB9B445CC5D396CC5E /* Sources */,
+				0203CEB9BA53F13EE4E8F127E99B485A /* Frameworks */,
+				CF51F52705463990F1E1E68A754C7D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B18CD1D1E5F5E4B3BEECBCBB3054757 /* PBXTargetDependency */,
+				A27F1B0D2B6873EAC324F960AF8D96FC /* PBXTargetDependency */,
+			);
+			name = SDWebImageLottieCoder;
+			productName = SDWebImageLottieCoder;
+			productReference = B0588C97BF0A2A55CEE373235FEFE63F /* SDWebImageLottieCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEA87423DCF5004F40D7C0BAF26DD30F /* Pods-LottieTutorialWatchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D32307F1EBE254D2CB5F6D76E935DF /* Build configuration list for PBXNativeTarget "Pods-LottieTutorialWatchOS WatchKit App" */;
+			buildPhases = (
+				0B6C7E9033C22AAFE6FCF36AA695B0FA /* Headers */,
+				0522B653F1F329DB729D3F9438132382 /* Sources */,
+				F273F782416E4E641A5F515A3909AF34 /* Frameworks */,
+				8CD02074AD9827F272D6FCC304A8A49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LottieTutorialWatchOS WatchKit App";
+			productName = "Pods-LottieTutorialWatchOS WatchKit App";
+			productReference = BCCAC19A37CB30B149904295FF3B86F5 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A6CF0AF5C1C66ACBD044F9D0CE057F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABAD27FBBB74C56660AA2577984C3B0 /* librlottie */,
+				A4A5040D928E2ABF253073541F69F27C /* Pods-LottieTutorialWatchOS */,
+				DEA87423DCF5004F40D7C0BAF26DD30F /* Pods-LottieTutorialWatchOS WatchKit App */,
+				1B67F29E6AF8341F134953EF8B49FD63 /* Pods-LottieTutorialWatchOS WatchKit Extension */,
+				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
+				D47088BC4D04E2CC703942B7135B6CDC /* SDWebImageLottieCoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD02074AD9827F272D6FCC304A8A49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AAF7A13C4C748F5AFB13A7F5C2910B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF51F52705463990F1E1E68A754C7D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF59977D61137A6B5C602D8F3FACD65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D030BE14FBA51D37CE211ACF143BF364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D70F7565EE0DD3BC12CD0BB42B01A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0522B653F1F329DB729D3F9438132382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49177BC5D4B002C7B3A7E48A5C01336 /* Pods-LottieTutorialWatchOS WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267538BB0CA2E4E3188BBA8D515C23B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C76CD4925CE032B419191F3F836F491 /* Pods-LottieTutorialWatchOS WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF2C3C6952568E0857636A98376D1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53CD0ACE5EA032CDD13B66B91A6EFF1 /* NSBezierPath+SDRoundedCorners.m in Sources */,
+				0D05444A429F547A4BDEDC9E23C36879 /* NSButton+WebCache.m in Sources */,
+				96BC6406D527EB877E451C53E5D9348E /* NSData+ImageContentType.m in Sources */,
+				D6C44AD965255E35DEF2A3BAEF205D11 /* NSImage+Compatibility.m in Sources */,
+				50E35F6C04E15F3501616932FB984A90 /* SDAnimatedImage.m in Sources */,
+				21367B89D29B942E036774CC5EDA0DE9 /* SDAnimatedImagePlayer.m in Sources */,
+				ECE1AE4108383C23582A21B66AC5D991 /* SDAnimatedImageRep.m in Sources */,
+				09DEFD4659636257C033B967AC5196C2 /* SDAnimatedImageView+WebCache.m in Sources */,
+				17A9AF6EE329CCFB27654097363C2B8A /* SDAnimatedImageView.m in Sources */,
+				0FF3CAEAC56C405ACA4B320F176447D4 /* SDAssociatedObject.m in Sources */,
+				50E3A40CAB7A92F505C4393BD7D1116E /* SDAsyncBlockOperation.m in Sources */,
+				128EFBE9343EDF0C57FAAADD49BC56DD /* SDDeviceHelper.m in Sources */,
+				524AC25A7CED6AB7D8147E7726D5D551 /* SDDiskCache.m in Sources */,
+				B8A009CEAFD508CE84FBDD4A3A4B10C7 /* SDDisplayLink.m in Sources */,
+				AD8414FC2EDF8B64AEAF989BB6AB2B0F /* SDFileAttributeHelper.m in Sources */,
+				9B2CA92DABE7B2C299F37DF6DE570E2A /* SDGraphicsImageRenderer.m in Sources */,
+				0163A7F0AF1E3F4DEED06DA0C37A5F4A /* SDImageAPNGCoder.m in Sources */,
+				79642E2EBF18C315DE62953996D39A9E /* SDImageAssetManager.m in Sources */,
+				7CD9214AFB90D23E3F48505B607204E1 /* SDImageCache.m in Sources */,
+				CB7FD6CF36B7E0D67976FB6A3B75801C /* SDImageCacheConfig.m in Sources */,
+				B92CB6650F2D0B6EFFFA70C37C2FFCD2 /* SDImageCacheDefine.m in Sources */,
+				F82CA60DC2AD0D30B9A76C882E9CC7B8 /* SDImageCachesManager.m in Sources */,
+				C6B18C54AF037EFF6980D1DA72CD8F1C /* SDImageCachesManagerOperation.m in Sources */,
+				8834B9A048F8C73839AE4C368751D878 /* SDImageCoder.m in Sources */,
+				D1D4A6C6CF29B86E3EAFFBAADBB73A05 /* SDImageCoderHelper.m in Sources */,
+				873A350A0687A1FC21E6B8898905C00A /* SDImageCodersManager.m in Sources */,
+				F018518837548C0FDFA50046C6560370 /* SDImageFrame.m in Sources */,
+				783A6CE16AE07CD9D7A1F2EC66B89B82 /* SDImageGIFCoder.m in Sources */,
+				692F99E41B633423A05F689BDF9BF505 /* SDImageGraphics.m in Sources */,
+				DC9999C4635EB1F887E657765307F37F /* SDImageHEICCoder.m in Sources */,
+				838B6BEF96FBB5B7C7BF3A1C8814CAF5 /* SDImageIOAnimatedCoder.m in Sources */,
+				0A0203526A44EEB4687C282EC7A7D7B7 /* SDImageIOCoder.m in Sources */,
+				FA9B235CCA3EA2B83D051C515EA6CECC /* SDImageLoader.m in Sources */,
+				07C43862CF5253B4A096F6A913530FE2 /* SDImageLoadersManager.m in Sources */,
+				36AA959BEC81425BBE36CFC90533C2C4 /* SDImageTransformer.m in Sources */,
+				1BEA5654CBFDFB08F9CCC7B449AD0303 /* SDInternalMacros.m in Sources */,
+				F313316E65DBF47DD3524A3932AF05EC /* SDMemoryCache.m in Sources */,
+				65846CA0B3651E360DBAA4BF90646811 /* SDWeakProxy.m in Sources */,
+				5449C418E805E4FA318948940B58F750 /* SDWebImage-dummy.m in Sources */,
+				A5AD02C445E69C15836B9F7FF6A6A7FB /* SDWebImageCacheKeyFilter.m in Sources */,
+				5ED2D31818A9DFE57C16B20CE543D274 /* SDWebImageCacheSerializer.m in Sources */,
+				93BEA54D5F71BA4A50431AF53CC00D87 /* SDWebImageCompat.m in Sources */,
+				F94747ABC283D6BCFCFF080753AEC5B9 /* SDWebImageDefine.m in Sources */,
+				80C5ED41C3D6A09655A040DF4410BD7E /* SDWebImageDownloader.m in Sources */,
+				27272CF73EAA852668D2E228D58CCC8E /* SDWebImageDownloaderConfig.m in Sources */,
+				56780125865CAB58CF02934466D336FE /* SDWebImageDownloaderDecryptor.m in Sources */,
+				83DD2FF118773A46901DB8318B385CE5 /* SDWebImageDownloaderOperation.m in Sources */,
+				F71B800721339454E1EB110BB76D6A62 /* SDWebImageDownloaderRequestModifier.m in Sources */,
+				C2932038ECAC0C7FD0B1B5D5E19DE4A9 /* SDWebImageDownloaderResponseModifier.m in Sources */,
+				1C001CC04CDC36B8A8FD4E6B58B3786D /* SDWebImageError.m in Sources */,
+				0ED03E858ED12DEFA6E86853F2A86A00 /* SDWebImageIndicator.m in Sources */,
+				B7AC7199CDB640965068EFE4F457D54E /* SDWebImageManager.m in Sources */,
+				E02E048DA4B33649F03623F5F8F7EC7F /* SDWebImageOperation.m in Sources */,
+				D7BA2B9647DF80AE7D97AC8380A4DBED /* SDWebImageOptionsProcessor.m in Sources */,
+				8A00773708860A349904DA584C466931 /* SDWebImagePrefetcher.m in Sources */,
+				D219BB010B08AD9D600A120B85B4E3EC /* SDWebImageTransition.m in Sources */,
+				E1E1496C800A668D619F3D1375A636B6 /* UIButton+WebCache.m in Sources */,
+				30DA70F0581FD30987A2CD17C2B77710 /* UIColor+SDHexString.m in Sources */,
+				2BA21C438056A776BA8C687B92795035 /* UIImage+ExtendedCacheData.m in Sources */,
+				7D0F7EC370A67B6F66D0EDDFD1398737 /* UIImage+ForceDecode.m in Sources */,
+				BC444EE0B534D0AA6A48BA231A524A41 /* UIImage+GIF.m in Sources */,
+				4BBEB45DB2BFA563C518B6FE6AA17F9D /* UIImage+MemoryCacheCost.m in Sources */,
+				82B8CA4C69F6BA4AA2FE7FC8BE95A71C /* UIImage+Metadata.m in Sources */,
+				50694F32A7F9B3C0A5FE587AA714DB4C /* UIImage+MultiFormat.m in Sources */,
+				C13BE2F7058C4B2DB6A52FFFD651394C /* UIImage+Transform.m in Sources */,
+				DB9923D81FF3CC6F34E07A6DE7C401DB /* UIImageView+HighlightedWebCache.m in Sources */,
+				8562E58FC55EFB48529FF3530FF6CFDA /* UIImageView+WebCache.m in Sources */,
+				BD8D08FD91DE12E4AB972B3586E3CE85 /* UIView+WebCache.m in Sources */,
+				682BB72677FA6AD3B70308A406E61097 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B468E1EAD035B26052F93E21FBDAC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0444B21CCD845D89AC88DB790D1A32F9 /* Pods-LottieTutorialWatchOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B20A797E7FD63AEB4A26A5593DF9E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552B26D1BDFC884E50855C2152C38461 /* librlottie-dummy.m in Sources */,
+				6A5D45F32D20B06DB9D9D48613A21D2B /* lottieanimation.cpp in Sources */,
+				3A86F204A8068735C7ABFE8E15A43A0A /* lottieanimation_capi.cpp in Sources */,
+				C9BE69506E9357DED77DD8F490FDFEA0 /* lottieitem.cpp in Sources */,
+				C370079ADD0F53B4629F4DD1AF0242F0 /* lottieitem_capi.cpp in Sources */,
+				6DAB6767A93955D8DE760495559F3D20 /* lottiekeypath.cpp in Sources */,
+				EC8BA3F688C99AF4906F16E6B13356EC /* lottieloader.cpp in Sources */,
+				D4341B6329BD5B954830C552C70E7349 /* lottiemodel.cpp in Sources */,
+				2C66BC67E9585BE4A9D37CA596AD39AF /* lottieparser.cpp in Sources */,
+				9CC08F5A59D7FC7661C3BFD70624A73D /* lottieproxymodel.cpp in Sources */,
+				63CF566BDF50D1BF9BB38C2C7D3AAAF8 /* stb_image.cpp in Sources */,
+				6C436845E2EC4FE47217FBEB9E299575 /* v_ft_math.cpp in Sources */,
+				4290A9BFE0F8C8144FF8EB6D057C5AC8 /* v_ft_raster.cpp in Sources */,
+				EDDA4192F02FE075B653F490513240A7 /* v_ft_stroker.cpp in Sources */,
+				E8F013711E345D6DB741BE911F46D5CE /* varenaalloc.cpp in Sources */,
+				F223290E30E3FBC1613B8087D7B945F2 /* vbezier.cpp in Sources */,
+				E7266534EA74BE8DF0B43496D97031F0 /* vbitmap.cpp in Sources */,
+				AF09E6F1BAE4C1AC1AB5D729C5AB1C96 /* vbrush.cpp in Sources */,
+				D3924E92CBDDC8E59A2EB329B4941BDE /* vcompositionfunctions.cpp in Sources */,
+				8DB15CDD967ECA7F7643165570406491 /* vdasher.cpp in Sources */,
+				DCB3F216CE713744B77F54A0F7B88228 /* vdebug.cpp in Sources */,
+				3439946AAAF437DB1E42290FCBEF2F02 /* vdrawable.cpp in Sources */,
+				29E2A9A79A3127A5BC3261F38F9F6247 /* vdrawhelper.cpp in Sources */,
+				3460770E76CC3995C02D6ED902FADA6D /* vdrawhelper_neon.cpp in Sources */,
+				7EEFE2896B3524AFAB0B015FCC8F5435 /* vdrawhelper_sse2.cpp in Sources */,
+				A628C33E9B14DEDAC0A438DB3CC934D1 /* velapsedtimer.cpp in Sources */,
+				E8C4FE5983E443874EFFA84E8032854D /* vimageloader.cpp in Sources */,
+				E9AE8496AC56E93D74F8577CD0DD0ED4 /* vinterpolator.cpp in Sources */,
+				866BC96BD538D3BDD0F8E6C3C1FF779E /* vmatrix.cpp in Sources */,
+				9CCD03079CB504BD324FAEC99C6F4D5E /* vpainter.cpp in Sources */,
+				24FA831CE2D21172182392093CFF6A7A /* vpath.cpp in Sources */,
+				754FDA41032137231D3E7F0AAA4AF688 /* vpathmesure.cpp in Sources */,
+				AD3D149E58FF8525DDE0DEE7F6B6EC80 /* vraster.cpp in Sources */,
+				096ABA2D54C861BA20D4C673B7AC0BC1 /* vrect.cpp in Sources */,
+				98FC0ABEE92FFECD6B58AE3BD058BCD4 /* vrle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD80349DBC6885CB9B445CC5D396CC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62D6462946EB3B8CCF92DBB62DA1095 /* SDImageLottieCoder.m in Sources */,
+				3F623EF4ABF6BB1B7CEC969FF5DE4BF9 /* SDWebImageLottieCoder-dummy.m in Sources */,
+				458397A3CC0DC65EA8B3F12AE94A5295 /* SDWebImageLottieLoaderDefine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B18CD1D1E5F5E4B3BEECBCBB3054757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = C1C9C998C33E13E8E4DA838CF5EA2E88 /* PBXContainerItemProxy */;
+		};
+		5EA81ABF70B00638661B64CBBCFF20AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = librlottie;
+			target = CABAD27FBBB74C56660AA2577984C3B0 /* librlottie */;
+			targetProxy = 5F68E212053D4F7AE627369C4F99CC0E /* PBXContainerItemProxy */;
+		};
+		A27F1B0D2B6873EAC324F960AF8D96FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = librlottie;
+			target = CABAD27FBBB74C56660AA2577984C3B0 /* librlottie */;
+			targetProxy = 66F7BFE5E5211C0991EE102728F5E56E /* PBXContainerItemProxy */;
+		};
+		CA0C66B9A260CAC5F39C20D1EC5465B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = 2C6C29354A021327D3FF6707964B0D2D /* PBXContainerItemProxy */;
+		};
+		D2AD3C3761AEA6B49ACDC5189C950B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImageLottieCoder;
+			target = D47088BC4D04E2CC703942B7135B6CDC /* SDWebImageLottieCoder */;
+			targetProxy = DA799D6DF43DC96CAF73CE993F7483FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D8502CCE1DB5AD1795DE36D25D3C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C82681E14B5FACC61A38FBE342FA0E /* Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit App/Pods-LottieTutorialWatchOS WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit App/Pods-LottieTutorialWatchOS WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		20E77DE23895BAE118D3636119CF67A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A69FDA8462A7C0D43548A08D02B099D /* Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		421112147B0B67C130B27B55CFBB4691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		49AE309921EE54C9C46ECB889A6187A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D234D7BBAC33C00AF13F6A62DCA956E /* SDWebImageLottieCoder.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImageLottieCoder/SDWebImageLottieCoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImageLottieCoder/SDWebImageLottieCoder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImageLottieCoder/SDWebImageLottieCoder.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImageLottieCoder;
+				PRODUCT_NAME = SDWebImageLottieCoder;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		51B99A7021D4BF103A85E8E9A853329C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B33B8DF532157D6FC098D0062771ACB /* librlottie.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/librlottie/librlottie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/librlottie/librlottie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/librlottie/librlottie.modulemap";
+				PRODUCT_MODULE_NAME = librlottie;
+				PRODUCT_NAME = librlottie;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9C2306FED959DA34C6C99583C2AF10B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		CA73D3191EB75E74615D0DEFC2E4E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D642AB62267F5A9BF1B0E0A355B39E /* SDWebImage.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D51676B59E7773625FA248331461C110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140845CCAB2114C856192B4D96955302 /* Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		DA68DF0D91FD336C07129E9BCCAA9DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EE0CFA34DAEA8DE9FEC8A60A60FB91 /* Pods-LottieTutorialWatchOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LottieTutorialWatchOS/Pods-LottieTutorialWatchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LottieTutorialWatchOS/Pods-LottieTutorialWatchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		DFEAA189963593CBCA76E6BB704F1EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE220C868B5DE275E3C6B2977869E5F /* SDWebImageLottieCoder.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImageLottieCoder/SDWebImageLottieCoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImageLottieCoder/SDWebImageLottieCoder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImageLottieCoder/SDWebImageLottieCoder.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImageLottieCoder;
+				PRODUCT_NAME = SDWebImageLottieCoder;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F3787D6A464050DF96593624FF13D43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4692F4D7676493D73A4A690845613C /* SDWebImage.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F6597B38C6CCD1EC08BBB764999F61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A770CF582CA289CC1D59CEB90351B8E1 /* librlottie.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/librlottie/librlottie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/librlottie/librlottie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/librlottie/librlottie.modulemap";
+				PRODUCT_MODULE_NAME = librlottie;
+				PRODUCT_NAME = librlottie;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F87545B8248FBADAF297FA05A2A52B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B9E04A2F133F651331831568A52AD0 /* Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit App/Pods-LottieTutorialWatchOS WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit App/Pods-LottieTutorialWatchOS WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		F8B119A2D6F48E5B59F339D484415B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BAA769B95867A441D5A0490162EB29 /* Pods-LottieTutorialWatchOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LottieTutorialWatchOS/Pods-LottieTutorialWatchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LottieTutorialWatchOS/Pods-LottieTutorialWatchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A792E46F280765338A40BF5E64E3B3 /* Build configuration list for PBXNativeTarget "SDWebImageLottieCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AE309921EE54C9C46ECB889A6187A0 /* Debug */,
+				DFEAA189963593CBCA76E6BB704F1EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421112147B0B67C130B27B55CFBB4691 /* Debug */,
+				9C2306FED959DA34C6C99583C2AF10B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615F28DB6F0373379508E04ED03CF2B1 /* Build configuration list for PBXNativeTarget "librlottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B99A7021D4BF103A85E8E9A853329C /* Debug */,
+				F6597B38C6CCD1EC08BBB764999F61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D32307F1EBE254D2CB5F6D76E935DF /* Build configuration list for PBXNativeTarget "Pods-LottieTutorialWatchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87545B8248FBADAF297FA05A2A52B37 /* Debug */,
+				02D8502CCE1DB5AD1795DE36D25D3C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A402E0716DEC38CE57D7EE59CE9EF8DD /* Build configuration list for PBXNativeTarget "Pods-LottieTutorialWatchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E77DE23895BAE118D3636119CF67A7 /* Debug */,
+				D51676B59E7773625FA248331461C110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6F755EB18559BA16F3A7501A53F36A /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3787D6A464050DF96593624FF13D43C /* Debug */,
+				CA73D3191EB75E74615D0DEFC2E4E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3EC63F24D7DD06D6847CC4DD7E15B2 /* Build configuration list for PBXNativeTarget "Pods-LottieTutorialWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B119A2D6F48E5B59F339D484415B89 /* Debug */,
+				DA68DF0D91FD336C07129E9BCCAA9DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

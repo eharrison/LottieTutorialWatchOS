@@ -1,0 +1,6 @@
+framework module Pods_LottieTutorialWatchOS {
+  umbrella header "Pods-LottieTutorialWatchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
