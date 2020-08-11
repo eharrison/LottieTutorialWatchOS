@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		388E0D7EA6EB601AFBCC3570 /* Pods_LottieTutorialWatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D6D5AE986C5BCCF6EEE098 /* Pods_LottieTutorialWatchOS.framework */; };
 		94ED110F24E22DA6006BB755 /* LottieTutorialWatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 94ED110E24E22DA6006BB755 /* LottieTutorialWatchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		94ED111524E22DA6006BB755 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ED111324E22DA6006BB755 /* Interface.storyboard */; };
 		94ED111724E22DA9006BB755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ED111624E22DA9006BB755 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 		94ED112524E22DA9006BB755 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED112424E22DA9006BB755 /* ExtensionDelegate.swift */; };
 		94ED112724E22DA9006BB755 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED112624E22DA9006BB755 /* NotificationController.swift */; };
 		94ED112924E22DA9006BB755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ED112824E22DA9006BB755 /* Assets.xcassets */; };
+		CA047808A54B5D07C439E443 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6646ECE660ADB0DE793B59 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework */; };
+		D50165FED43F29947817FB41 /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F531953A722C77F20BE4453 /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0FD41DEDBB49E10462496CBB /* Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2C09223FDA47A9F6AADE8141 /* Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit App/Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		430D35F442CB19C8E8B7E3B3 /* Pods-LottieTutorialWatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTutorialWatchOS.debug.xcconfig"; path = "Target Support Files/Pods-LottieTutorialWatchOS/Pods-LottieTutorialWatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		43E98C816D0CFDCCAD8E04AA /* Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		5F531953A722C77F20BE4453 /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieTutorialWatchOS_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ED110A24E22DA6006BB755 /* LottieTutorialWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieTutorialWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ED110E24E22DA6006BB755 /* LottieTutorialWatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LottieTutorialWatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ED111424E22DA6006BB755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -72,25 +80,58 @@
 		94ED112824E22DA9006BB755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94ED112A24E22DA9006BB755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94ED112B24E22DA9006BB755 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A7D6D5AE986C5BCCF6EEE098 /* Pods_LottieTutorialWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieTutorialWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6646ECE660ADB0DE793B59 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieTutorialWatchOS_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50606BBDEEA28034A76B52F /* Pods-LottieTutorialWatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTutorialWatchOS.release.xcconfig"; path = "Target Support Files/Pods-LottieTutorialWatchOS/Pods-LottieTutorialWatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		EF9C1F51FB560434B556CD6C /* Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-LottieTutorialWatchOS WatchKit App/Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3DC0D4A15B0E5E76EB8A388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388E0D7EA6EB601AFBCC3570 /* Pods_LottieTutorialWatchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEE0A887ED8301875B82332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA047808A54B5D07C439E443 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94ED111A24E22DA9006BB755 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50165FED43F29947817FB41 /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0568BA150CC2A44152A5D264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D6D5AE986C5BCCF6EEE098 /* Pods_LottieTutorialWatchOS.framework */,
+				BA6646ECE660ADB0DE793B59 /* Pods_LottieTutorialWatchOS_WatchKit_App.framework */,
+				5F531953A722C77F20BE4453 /* Pods_LottieTutorialWatchOS_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94ED110324E22DA6006BB755 = {
 			isa = PBXGroup;
 			children = (
 				94ED111224E22DA6006BB755 /* LottieTutorialWatchOS WatchKit App */,
 				94ED112124E22DA9006BB755 /* LottieTutorialWatchOS WatchKit Extension */,
 				94ED110B24E22DA6006BB755 /* Products */,
+				AF23FFF433D8FA4742F2EEF5 /* Pods */,
+				0568BA150CC2A44152A5D264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +168,20 @@
 			path = "LottieTutorialWatchOS WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		AF23FFF433D8FA4742F2EEF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				430D35F442CB19C8E8B7E3B3 /* Pods-LottieTutorialWatchOS.debug.xcconfig */,
+				D50606BBDEEA28034A76B52F /* Pods-LottieTutorialWatchOS.release.xcconfig */,
+				2C09223FDA47A9F6AADE8141 /* Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig */,
+				EF9C1F51FB560434B556CD6C /* Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig */,
+				43E98C816D0CFDCCAD8E04AA /* Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig */,
+				0FD41DEDBB49E10462496CBB /* Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,8 +189,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94ED113624E22DA9006BB755 /* Build configuration list for PBXNativeTarget "LottieTutorialWatchOS" */;
 			buildPhases = (
+				928093799F29587A97CCEC7F /* [CP] Check Pods Manifest.lock */,
 				94ED110824E22DA6006BB755 /* Resources */,
 				94ED113524E22DA9006BB755 /* Embed Watch Content */,
+				3DC0D4A15B0E5E76EB8A388B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,8 +208,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94ED113224E22DA9006BB755 /* Build configuration list for PBXNativeTarget "LottieTutorialWatchOS WatchKit App" */;
 			buildPhases = (
+				73A40FF567732578ED2001E9 /* [CP] Check Pods Manifest.lock */,
 				94ED110C24E22DA6006BB755 /* Resources */,
 				94ED113124E22DA9006BB755 /* Embed App Extensions */,
+				8DEE0A887ED8301875B82332 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94ED112E24E22DA9006BB755 /* Build configuration list for PBXNativeTarget "LottieTutorialWatchOS WatchKit Extension" */;
 			buildPhases = (
+				4C4D6FCE5CAFD1C36F421ECC /* [CP] Check Pods Manifest.lock */,
 				94ED111924E22DA9006BB755 /* Sources */,
 				94ED111A24E22DA9006BB755 /* Frameworks */,
 				94ED111B24E22DA9006BB755 /* Resources */,
+				5D725A3F2E46F98CFC0391F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +309,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C4D6FCE5CAFD1C36F421ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieTutorialWatchOS WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D725A3F2E46F98CFC0391F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieTutorialWatchOS WatchKit Extension/Pods-LottieTutorialWatchOS WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A40FF567732578ED2001E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieTutorialWatchOS WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928093799F29587A97CCEC7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieTutorialWatchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94ED111924E22DA9006BB755 /* Sources */ = {
@@ -401,6 +548,7 @@
 		};
 		94ED112F24E22DA9006BB755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E98C816D0CFDCCAD8E04AA /* Pods-LottieTutorialWatchOS WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +571,7 @@
 		};
 		94ED113024E22DA9006BB755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD41DEDBB49E10462496CBB /* Pods-LottieTutorialWatchOS WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +594,7 @@
 		};
 		94ED113324E22DA9006BB755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C09223FDA47A9F6AADE8141 /* Pods-LottieTutorialWatchOS WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -464,6 +614,7 @@
 		};
 		94ED113424E22DA9006BB755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9C1F51FB560434B556CD6C /* Pods-LottieTutorialWatchOS WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -483,6 +634,7 @@
 		};
 		94ED113724E22DA9006BB755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430D35F442CB19C8E8B7E3B3 /* Pods-LottieTutorialWatchOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,6 +648,7 @@
 		};
 		94ED113824E22DA9006BB755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50606BBDEEA28034A76B52F /* Pods-LottieTutorialWatchOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
